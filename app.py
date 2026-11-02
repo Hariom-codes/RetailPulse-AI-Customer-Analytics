@@ -642,6 +642,158 @@ else:
     st.info("Inventory data unavailable.")
 
 
+
+# --------------------------------------------------
+# INVENTORY OPTIMIZATION
+# --------------------------------------------------
+
+st.markdown("---")
+st.header("📦 Inventory Optimization & Reorder Planning")
+
+inventory_df = load_csv("inventory_snapshot.csv")
+demand_inventory_df = load_csv("daily_product_demand.csv")
+
+if inventory_df is not None and demand_inventory_df is not None:
+
+    inventory_df["Product_ID"] = inventory_df["Product_ID"].astype(str)
+    demand_inventory_df["Product_ID"] = demand_inventory_df["Product_ID"].astype(str)
+
+    demand_inventory_df["Order_Date"] = pd.to_datetime(
+        demand_inventory_df["Order_Date"], errors="coerce"
+    )
+
+    demand_inventory_df["Units_Sold"] = pd.to_numeric(
+        demand_inventory_df["Units_Sold"], errors="coerce"
+    ).fillna(0)
+
+    # Recent 90-day average daily demand for each product
+    latest_date = demand_inventory_df["Order_Date"].max()
+    recent_start = latest_date - pd.Timedelta(days=89)
+
+    recent_demand = demand_inventory_df[
+        demand_inventory_df["Order_Date"].between(recent_start, latest_date)
+    ]
+
+    avg_daily_demand = (
+        recent_demand.groupby("Product_ID")["Units_Sold"]
+        .sum()
+        .div(90)
+        .rename("Avg_Daily_Demand")
+    )
+
+    inventory_df = inventory_df.join(
+        avg_daily_demand, on="Product_ID"
+    )
+
+    inventory_df["Avg_Daily_Demand"] = (
+        inventory_df["Avg_Daily_Demand"].fillna(0)
+    )
+
+    # Forecast-informed baseline inventory calculation
+    inventory_df["Lead_Time_Demand"] = (
+        inventory_df["Avg_Daily_Demand"]
+        * inventory_df["Lead_Time_Days"]
+    )
+
+    inventory_df["Calculated_Reorder_Point"] = (
+        inventory_df["Lead_Time_Demand"]
+        + inventory_df["Safety_Stock"]
+    )
+
+    inventory_df["Recommended_Order_Qty"] = np.ceil(
+        (
+            inventory_df["Calculated_Reorder_Point"]
+            - inventory_df["Stock_Level"]
+        ).clip(lower=0)
+    )
+
+    inventory_df["Estimated_Order_Cost"] = (
+        inventory_df["Recommended_Order_Qty"]
+        * inventory_df["Unit_Cost"]
+    )
+
+    inventory_df["Inventory_Status"] = np.where(
+        inventory_df["Recommended_Order_Qty"] > 0,
+        "Reorder Required",
+        "Stock Sufficient"
+    )
+
+    # KPI calculations
+    reorder_items = inventory_df[
+        inventory_df["Recommended_Order_Qty"] > 0
+    ]
+
+    total_products = len(inventory_df)
+    reorder_count = len(reorder_items)
+    total_reorder_units = int(
+        inventory_df["Recommended_Order_Qty"].sum()
+    )
+    total_purchase_cost = inventory_df["Estimated_Order_Cost"].sum()
+
+    col1, col2, col3, col4 = st.columns(4)
+
+    col1.metric("Total Products", total_products)
+    col2.metric("Products to Reorder", reorder_count)
+    col3.metric("Recommended Units", total_reorder_units)
+    col4.metric("Estimated Purchase Cost", f"₹{total_purchase_cost:,.0f}")
+
+    st.markdown("### Reorder Recommendations")
+
+    st.dataframe(
+        reorder_items[
+            [
+                "Product_ID",
+                "Category",
+                "Stock_Level",
+                "Lead_Time_Days",
+                "Safety_Stock",
+                "Calculated_Reorder_Point",
+                "Recommended_Order_Qty",
+                "Unit_Cost",
+                "Estimated_Order_Cost"
+            ]
+        ].sort_values(
+            "Recommended_Order_Qty", ascending=False
+        ),
+        use_container_width=True,
+        hide_index=True
+    )
+
+    st.markdown("### Inventory Status Distribution")
+
+    status_counts = inventory_df["Inventory_Status"].value_counts()
+
+    st.bar_chart(status_counts)
+
+    st.markdown("### Category-wise Reorder Cost")
+
+    category_cost = (
+        reorder_items.groupby("Category")["Estimated_Order_Cost"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    st.bar_chart(category_cost)
+
+    # Download recommendations
+    csv_data = inventory_df.to_csv(index=False).encode("utf-8")
+
+    st.download_button(
+        label="📥 Download Inventory Recommendations",
+        data=csv_data,
+        file_name="retailpulse_inventory_recommendations.csv",
+        mime="text/csv"
+    )
+
+    st.info(
+        "Planning note: Demand is estimated using the recent 90-day "
+        "average daily sales rate. Reorder point = estimated lead-time "
+        "demand + safety stock. These are planning estimates, not "
+        "validated production purchasing recommendations."
+    )
+
+
+
 # --------------------------------------------------
 # TRANSACTION RECORDS
 # --------------------------------------------------
