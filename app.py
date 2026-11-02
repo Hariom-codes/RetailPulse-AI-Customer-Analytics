@@ -161,75 +161,70 @@ st.dataframe(
 )
 
 
+
 st.divider()
 
 st.subheader("Customer Churn & Inactivity Analysis")
 
 churn = load_data("customer_features_churn.csv")
 
-
-if churn is not None:
-    st.write("Dataset Shape:", churn.shape)
-    st.write("Column Names:", churn.columns.tolist())
-
-    st.write("First 10 Churn Records:")
-    st.dataframe(churn.head(10))
-
-    st.write("Churn Status Null Count:")
-    st.write(churn["Churn_Status"].isna().sum())
-
-    st.write("Churn Status Data Type:")
-    st.write(churn["Churn_Status"].dtype)
-
-    st.write("Churn Status Unique Values:")
-    st.write(churn["Churn_Status"].unique())
-
-
-st.write("Churn Status Values:")
-st.write(churn["Churn_Status"].value_counts(dropna=False))
-st.write("Unique Values:", churn["Churn_Status"].unique())
-
 if churn is not None:
 
-    churn["Churn_Status"] = churn["Churn_Status"].astype(str)
+    # Convert churn labels to numeric
+    churn["Churn_Status"] = pd.to_numeric(
+        churn["Churn_Status"], errors="coerce"
+    )
 
-    # Customer status summary
-    status_counts = churn["Churn_Status"].value_counts()
+    churn = churn.dropna(subset=["Churn_Status"])
+    churn["Churn_Status"] = churn["Churn_Status"].astype(int)
+
+    # 0 = Active, 1 = Churned
+    churn["Customer_Status"] = churn["Churn_Status"].map({
+        0: "Active",
+        1: "Churned"
+    })
 
     total_customers = len(churn)
-    churned_customers = (churn["Churn_Status"].str.lower() == "churned").sum()
-    active_customers = total_customers - churned_customers
+    churned_customers = (churn["Churn_Status"] == 1).sum()
+    active_customers = (churn["Churn_Status"] == 0).sum()
 
     churn_rate = (
         churned_customers / total_customers * 100
         if total_customers else 0
     )
 
+    # KPI metrics
     c1, c2, c3 = st.columns(3)
 
     c1.metric("Total Customers", f"{total_customers:,}")
-    c2.metric("Inactive / Churned", f"{churned_customers:,}")
+    c2.metric("Churned Customers", f"{churned_customers:,}")
     c3.metric("90-Day Inactivity Rate", f"{churn_rate:.1f}%")
 
+    # Customer distribution
     left, right = st.columns(2)
 
     with left:
-        st.markdown("**Customer Status Distribution**")
+        st.markdown("**Active vs Churned Customers**")
+        status_counts = churn["Customer_Status"].value_counts()
         st.bar_chart(status_counts)
 
     with right:
-        st.markdown("**Days Since Last Purchase**")
-        if "Days_Since_Last_Purchase" in churn.columns:
-            st.histogram if False else None
-            st.bar_chart(
-                churn["Days_Since_Last_Purchase"]
-                .value_counts(bins=10)
-                .sort_index()
-            )
+        st.markdown("**Days Since Last Purchase Distribution")
 
+        inactivity = pd.to_numeric(
+            churn["Days_Since_Last_Purchase"], errors="coerce"
+        ).dropna()
+
+        if not inactivity.empty:
+            bins = pd.cut(inactivity, bins=10)
+            distribution = bins.value_counts().sort_index()
+            distribution.index = distribution.index.astype(str)
+            st.bar_chart(distribution)
+
+    # Customer behaviour comparison
     st.markdown("**Customer Behaviour Comparison**")
 
-    comparison = churn.groupby("Churn_Status").agg(
+    comparison = churn.groupby("Customer_Status").agg(
         Customers=("Customer_ID", "count"),
         Average_Orders=("Total_Orders", "mean"),
         Average_Revenue=("Total_Revenue", "mean"),
@@ -240,13 +235,14 @@ if churn is not None:
     st.dataframe(comparison, use_container_width=True)
 
     st.info(
-        "Churn is defined here as more than 90 days without a purchase "
-        "as of 31 December 2025. This section describes historical "
-        "inactivity patterns; it is not a validated future churn prediction model."
+        "Churn is defined as more than 90 days without a purchase "
+        "as of 31 December 2025. This analysis describes historical "
+        "customer inactivity, not validated future churn prediction."
     )
 
 else:
     st.warning("Customer churn dataset not found.")
+
 
 st.subheader("Inventory Overview")
 
