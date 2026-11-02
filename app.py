@@ -930,7 +930,6 @@ if demand_df is not None:
                 "Forecasts are experimental estimates. "
                 "Validate model performance before making inventory decisions."
             )
-</>
 
 
 # --------------------------------------------------
