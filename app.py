@@ -1260,6 +1260,91 @@ if whatif_sales is not None:
             mime="text/csv"
         )
 
+        
+        # Generate PDF report
+        pdf_buffer = BytesIO()
+
+        pdf_doc = SimpleDocTemplate(
+            pdf_buffer,
+            pagesize=letter,
+            rightMargin=40,
+            leftMargin=40,
+            topMargin=40,
+            bottomMargin=40
+        )
+
+        styles = getSampleStyleSheet()
+
+        story = [
+            Paragraph(
+                "RetailPulse - What-if Scenario Report",
+                styles["Title"]
+            ),
+            Spacer(1, 16),
+            Paragraph(
+                "Interactive Business Scenario Analysis",
+                styles["Heading2"]
+            ),
+            Spacer(1, 12)
+        ]
+
+        # Prepare formatted report table
+        pdf_table_data = [["Metric", "Value"]]
+
+        for _, row in scenario_report.iterrows():
+            metric = str(row["Metric"])
+            value = row["Value"]
+
+            if "(%)" in metric:
+                formatted_value = f"{float(value):,.2f}%"
+            elif any(word in metric for word in [
+                "Revenue", "Profit", "Difference"
+            ]):
+                formatted_value = f"₹{float(value):,.2f}"
+            else:
+                formatted_value = str(value)
+
+            pdf_table_data.append([metric, formatted_value])
+
+        report_table = Table(
+            pdf_table_data,
+            colWidths=[300, 170]
+        )
+
+        report_table.setStyle(TableStyle([
+            ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#243B55")),
+            ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
+            ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold"),
+            ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+            ("PADDING", (0, 0), (-1, -1), 8),
+            ("BACKGROUND", (0, 1), (-1, -1), colors.whitesmoke),
+            ("VALIGN", (0, 0), (-1, -1), "MIDDLE")
+        ]))
+
+        story.append(report_table)
+        story.append(Spacer(1, 18))
+
+        story.append(
+            Paragraph(
+                "<b>Assumptions:</b> Unit costs are assumed constant. "
+                "Projected results are scenario simulations based on "
+                "the selected sales-volume and selling-price changes. "
+                "They are not guaranteed forecasts.",
+                styles["BodyText"]
+            )
+        )
+
+        pdf_doc.build(story)
+        pdf_buffer.seek(0)
+
+        st.download_button(
+            label="📄 Download What-if PDF Report",
+            data=pdf_buffer.getvalue(),
+            file_name="RetailPulse_WhatIf_Report.pdf",
+            mime="application/pdf"
+        )
+
+
         st.info(
             "Scenario assumption: unit costs remain unchanged, "
             "while sales volume and selling price change according "
