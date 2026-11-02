@@ -1099,6 +1099,126 @@ if demand_df is not None:
                 "Validate model performance before making inventory decisions."
             )
 
+# --------------------------------------------------
+# REAL-TIME METRICS & ALERTS
+# --------------------------------------------------
+
+st.markdown("---")
+st.header("🚨 Business Metrics & Alerts")
+
+alert_inventory = load_csv("inventory_snapshot.csv")
+alert_sales = load_csv("sales_transactions.csv")
+
+if alert_inventory is not None and alert_sales is not None:
+
+    # Inventory alerts
+    alert_inventory["Stock_Level"] = pd.to_numeric(
+        alert_inventory["Stock_Level"], errors="coerce"
+    ).fillna(0)
+
+    alert_inventory["Reorder_Level"] = pd.to_numeric(
+        alert_inventory["Reorder_Level"], errors="coerce"
+    ).fillna(0)
+
+    low_stock = alert_inventory[
+        alert_inventory["Stock_Level"] <= alert_inventory["Reorder_Level"]
+    ]
+
+    high_risk = alert_inventory[
+        alert_inventory["Stockout_Risk"].astype(str).str.lower() == "high"
+    ]
+
+    # Sales metrics
+    revenue_candidates = [
+        "Revenue", "Total_Revenue", "Sales",
+        "Sales_Amount", "Total_Amount", "Amount"
+    ]
+
+    profit_candidates = [
+        "Profit", "Total_Profit", "Profit_Amount", "Net_Profit"
+    ]
+
+    revenue_col = next(
+        (c for c in revenue_candidates if c in alert_sales.columns), None
+    )
+
+    profit_col = next(
+        (c for c in profit_candidates if c in alert_sales.columns), None
+    )
+
+    total_revenue = (
+        pd.to_numeric(alert_sales[revenue_col], errors="coerce").sum()
+        if revenue_col else 0
+    )
+
+    total_profit = (
+        pd.to_numeric(alert_sales[profit_col], errors="coerce").sum()
+        if profit_col else 0
+    )
+
+    profit_margin = (
+        (total_profit / total_revenue) * 100
+        if total_revenue > 0 else 0
+    )
+
+    # Alert KPIs
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric("Low Stock Products", len(low_stock))
+    c2.metric("High Stockout Risk", len(high_risk))
+    c3.metric("Total Revenue", f"₹{total_revenue:,.0f}")
+    c4.metric("Profit Margin", f"{profit_margin:.2f}%")
+
+    st.markdown("### System Alerts")
+
+    if len(high_risk) > 0:
+        st.error(
+            f"🔴 High Risk: {len(high_risk)} products have high stockout risk."
+        )
+    else:
+        st.success("No products currently marked as high stockout risk.")
+
+    if len(low_stock) > 0:
+        st.warning(
+            f"🟠 Low Stock: {len(low_stock)} products are at or below "
+            "their reorder level."
+        )
+    else:
+        st.success("Inventory levels are above the reorder thresholds.")
+
+    if profit_margin < 15:
+        st.warning(
+            f"🟠 Profit margin alert: Current margin is {profit_margin:.2f}%."
+        )
+    else:
+        st.success(
+            f"Profit margin check passed: {profit_margin:.2f}%."
+        )
+
+    st.markdown("### Products Requiring Attention")
+
+    if not low_stock.empty:
+        st.dataframe(
+            low_stock[
+                [
+                    "Product_ID",
+                    "Category",
+                    "Stock_Level",
+                    "Reorder_Level",
+                    "Stockout_Risk"
+                ]
+            ],
+            use_container_width=True,
+            hide_index=True
+        )
+    else:
+        st.info("No products currently require low-stock attention.")
+
+    st.caption(
+        "Alerts are calculated from the loaded project datasets whenever "
+        "the dashboard reruns. They are not connected to a live retail feed."
+    )
+
 
 # --------------------------------------------------
 # INTERACTIVE WHAT-IF ANALYSIS
