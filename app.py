@@ -168,6 +168,7 @@ quantity = df["Quantity"].sum()
 aov = revenue / orders if orders else 0
 margin = profit / revenue * 100 if revenue else 0
 
+
 # Update Prometheus business metrics
 prometheus_metrics["total_revenue"].set(float(revenue))
 prometheus_metrics["total_orders"].set(int(orders))
@@ -1182,9 +1183,9 @@ if alert_inventory is not None and alert_sales is not None:
     ]
 
     # Update Prometheus inventory alert metrics
-prometheus_metrics["low_stock"].set(int(len(low_stock)))
-prometheus_metrics["high_risk"].set(int(len(high_risk)))
-
+    # Update Prometheus inventory alert metrics
+    prometheus_metrics["low_stock"].set(int(len(low_stock)))
+    prometheus_metrics["high_risk"].set(int(len(high_risk)))
     # Sales metrics
     revenue_candidates = [
         "Revenue", "Total_Revenue", "Sales",
