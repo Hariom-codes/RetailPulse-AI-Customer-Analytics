@@ -167,6 +167,10 @@ st.subheader("Customer Churn & Inactivity Analysis")
 
 churn = load_data("customer_features_churn.csv")
 
+st.write("Churn Status Values:")
+st.write(churn["Churn_Status"].value_counts(dropna=False))
+st.write("Unique Values:", churn["Churn_Status"].unique())
+
 if churn is not None:
 
     churn["Churn_Status"] = churn["Churn_Status"].astype(str)
