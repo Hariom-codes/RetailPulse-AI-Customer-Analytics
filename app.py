@@ -223,18 +223,18 @@ if churn is not None:
 
     # Customer behaviour comparison
     
-   st.markdown("**Customer Behaviour Comparison**")
+      # Customer Behaviour Comparison
+    st.markdown("**Customer Behaviour Comparison**")
 
-comparison = churn.groupby("Customer_Status").agg(
-    Customers=("Customer_ID", "nunique"),
-    Average_Orders=("Total_Orders", "mean"),
-    Average_Revenue=("Total_Revenue", "mean"),
-    Average_Order_Value=("Average_Order_Value", "mean"),
-    Average_Tenure=("Customer_Tenure_Days", "mean")
-).round(2).reset_index()
+    comparison = churn.groupby("Customer_Status").agg(
+        Customers=("Customer_ID", "nunique"),
+        Average_Orders=("Total_Orders", "mean"),
+        Average_Revenue=("Total_Revenue", "mean"),
+        Average_Order_Value=("Average_Order_Value", "mean"),
+        Average_Tenure=("Customer_Tenure_Days", "mean")
+    ).round(2).reset_index()
 
-st.dataframe(comparison, use_container_width=True)
-
+    st.dataframe(comparison, use_container_width=True)
 
     st.info(
         "Churn is defined as more than 90 days without a purchase "
