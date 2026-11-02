@@ -17,6 +17,54 @@ from sklearn.metrics import silhouette_score
 
 
 # --------------------------------------------------
+# PROMETHEUS MONITORING SETUP
+# --------------------------------------------------
+
+@st.cache_resource
+def init_prometheus():
+
+    registry = CollectorRegistry()
+
+    metrics = {
+        "dashboard_runs": Counter(
+            "retailpulse_dashboard_runs",
+            "Total number of dashboard runs",
+            registry=registry
+        ),
+        "total_revenue": Gauge(
+            "retailpulse_total_revenue",
+            "Total sales revenue",
+            registry=registry
+        ),
+        "total_orders": Gauge(
+            "retailpulse_total_orders",
+            "Total number of orders",
+            registry=registry
+        ),
+        "low_stock": Gauge(
+            "retailpulse_low_stock_products",
+            "Number of low stock products",
+            registry=registry
+        ),
+        "high_risk": Gauge(
+            "retailpulse_high_stockout_risk",
+            "Number of high stockout risk products",
+            registry=registry
+        )
+    }
+
+    start_http_server(8001, registry=registry)
+
+    return metrics
+
+
+prometheus_metrics = init_prometheus()
+prometheus_metrics["dashboard_runs"].inc()
+
+
+
+
+# --------------------------------------------------
 # PAGE CONFIGURATION
 # --------------------------------------------------
 
