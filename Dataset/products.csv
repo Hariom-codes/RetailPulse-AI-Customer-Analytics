@@ -1,0 +1,121 @@
+Product_ID,Product_Name,Category,Brand,Unit_Cost,Unit_Price,Supplier_ID
+PROD0001,Premium Series 001,Sports,Nova,174.09,316.43,SUP012
+PROD0002,Classic Set 002,Grocery,Nova,2097.64,2924.56,SUP007
+PROD0003,Premium Pack 003,Electronics,FitPro,1299.37,2289.0,SUP001
+PROD0004,Eco Series 004,Sports,DailyChoice,1336.44,2366.08,SUP015
+PROD0005,Smart Item 005,Home & Kitchen,FitPro,1421.52,2010.92,SUP009
+PROD0006,Everyday Series 006,Beauty,UrbanLeaf,460.2,568.71,SUP007
+PROD0007,Eco Series 007,Grocery,FitPro,526.32,876.56,SUP010
+PROD0008,Everyday Series 008,Beauty,UrbanLeaf,824.29,1144.7,SUP012
+PROD0009,Premium Set 009,Grocery,Nova,1500.0,2556.84,SUP009
+PROD0010,Smart Set 010,Sports,DailyChoice,556.89,822.29,SUP007
+PROD0011,Eco Pack 011,Electronics,UrbanLeaf,326.18,490.94,SUP002
+PROD0012,Smart Item 012,Fashion,DailyChoice,2426.49,4127.94,SUP015
+PROD0013,Eco Item 013,Beauty,DailyChoice,94.08,135.12,SUP006
+PROD0014,Premium Item 014,Beauty,UrbanLeaf,2014.64,2975.41,SUP010
+PROD0015,Eco Set 015,Fashion,HomeEase,1978.57,2833.41,SUP012
+PROD0016,Everyday Series 016,Beauty,FitPro,771.15,1099.75,SUP011
+PROD0017,Everyday Series 017,Beauty,UrbanLeaf,373.64,572.56,SUP004
+PROD0018,Premium Pack 018,Grocery,Nova,398.25,685.74,SUP003
+PROD0019,Eco Pack 019,Grocery,DailyChoice,1755.68,2497.25,SUP002
+PROD0020,Premium Set 020,Fashion,GlowUp,1621.3,2482.62,SUP006
+PROD0021,Eco Series 021,Electronics,UrbanLeaf,1965.55,3202.64,SUP008
+PROD0022,Everyday Pack 022,Sports,FitPro,2346.2,3192.06,SUP006
+PROD0023,Everyday Item 023,Sports,DailyChoice,1742.14,2379.66,SUP009
+PROD0024,Premium Item 024,Beauty,HomeEase,423.39,764.38,SUP014
+PROD0025,Premium Pack 025,Electronics,Nova,638.87,1063.57,SUP005
+PROD0026,Premium Set 026,Fashion,HomeEase,2111.8,3308.59,SUP002
+PROD0027,Premium Series 027,Fashion,GlowUp,554.89,895.58,SUP008
+PROD0028,Everyday Set 028,Grocery,UrbanLeaf,218.4,262.0,SUP009
+PROD0029,Smart Pack 029,Beauty,DailyChoice,1770.07,2821.72,SUP014
+PROD0030,Everyday Series 030,Home & Kitchen,UrbanLeaf,1030.21,1567.33,SUP010
+PROD0031,Eco Pack 031,Fashion,FitPro,2303.3,3560.1,SUP004
+PROD0032,Premium Series 032,Beauty,UrbanLeaf,1639.63,2329.61,SUP006
+PROD0033,Smart Series 033,Electronics,Nova,262.43,323.99,SUP015
+PROD0034,Classic Series 034,Grocery,GlowUp,2371.73,3105.87,SUP011
+PROD0035,Premium Item 035,Sports,HomeEase,676.05,1228.38,SUP010
+PROD0036,Eco Item 036,Electronics,GlowUp,869.54,1264.16,SUP008
+PROD0037,Everyday Pack 037,Fashion,DailyChoice,1029.56,1536.8,SUP009
+PROD0038,Eco Series 038,Fashion,UrbanLeaf,166.01,201.75,SUP012
+PROD0039,Classic Item 039,Electronics,DailyChoice,1261.43,1520.24,SUP005
+PROD0040,Smart Pack 040,Fashion,HomeEase,343.36,570.15,SUP012
+PROD0041,Everyday Item 041,Beauty,DailyChoice,1026.39,1581.18,SUP006
+PROD0042,Premium Series 042,Fashion,FitPro,902.75,1372.93,SUP011
+PROD0043,Premium Pack 043,Grocery,GlowUp,1941.19,2606.81,SUP004
+PROD0044,Classic Pack 044,Beauty,HomeEase,2015.8,3384.49,SUP005
+PROD0045,Classic Series 045,Home & Kitchen,HomeEase,417.4,539.58,SUP007
+PROD0046,Premium Set 046,Fashion,HomeEase,941.72,1231.07,SUP009
+PROD0047,Classic Pack 047,Fashion,Nova,958.45,1426.82,SUP010
+PROD0048,Everyday Series 048,Grocery,GlowUp,412.47,565.83,SUP011
+PROD0049,Classic Pack 049,Grocery,DailyChoice,2004.2,2697.25,SUP013
+PROD0050,Everyday Set 050,Sports,HomeEase,1779.78,2869.56,SUP006
+PROD0051,Smart Item 051,Electronics,GlowUp,508.34,821.55,SUP014
+PROD0052,Classic Series 052,Electronics,HomeEase,942.14,1632.19,SUP006
+PROD0053,Everyday Pack 053,Electronics,FitPro,300.28,438.37,SUP008
+PROD0054,Smart Item 054,Grocery,FitPro,1585.39,1948.39,SUP011
+PROD0055,Everyday Series 055,Electronics,FitPro,338.57,461.59,SUP004
+PROD0056,Smart Series 056,Electronics,UrbanLeaf,2465.4,4527.96,SUP003
+PROD0057,Eco Pack 057,Home & Kitchen,HomeEase,1960.48,3096.56,SUP014
+PROD0058,Smart Item 058,Electronics,UrbanLeaf,999.99,1655.51,SUP007
+PROD0059,Everyday Pack 059,Fashion,GlowUp,1463.27,1733.87,SUP005
+PROD0060,Eco Item 060,Sports,UrbanLeaf,2281.9,3484.91,SUP002
+PROD0061,Classic Pack 061,Grocery,GlowUp,1403.08,1690.91,SUP002
+PROD0062,Smart Series 062,Beauty,GlowUp,469.27,732.71,SUP011
+PROD0063,Premium Pack 063,Sports,GlowUp,971.61,1745.9,SUP006
+PROD0064,Eco Series 064,Home & Kitchen,DailyChoice,2114.14,3866.43,SUP008
+PROD0065,Smart Series 065,Grocery,UrbanLeaf,1624.76,2505.66,SUP001
+PROD0066,Premium Item 066,Grocery,DailyChoice,1640.78,2439.84,SUP015
+PROD0067,Classic Set 067,Fashion,HomeEase,2172.38,3938.88,SUP011
+PROD0068,Premium Item 068,Sports,UrbanLeaf,2239.17,3652.8,SUP006
+PROD0069,Classic Pack 069,Sports,HomeEase,2302.69,2817.3,SUP012
+PROD0070,Premium Pack 070,Electronics,HomeEase,273.33,407.82,SUP002
+PROD0071,Classic Set 071,Fashion,GlowUp,1378.55,1848.59,SUP002
+PROD0072,Premium Item 072,Electronics,UrbanLeaf,1861.65,2782.74,SUP007
+PROD0073,Classic Pack 073,Electronics,HomeEase,1902.04,2824.84,SUP010
+PROD0074,Everyday Set 074,Grocery,FitPro,1532.52,2406.11,SUP001
+PROD0075,Everyday Item 075,Sports,HomeEase,450.3,638.99,SUP006
+PROD0076,Classic Pack 076,Electronics,FitPro,2001.65,2582.25,SUP014
+PROD0077,Premium Pack 077,Home & Kitchen,UrbanLeaf,1811.47,2748.89,SUP007
+PROD0078,Everyday Pack 078,Home & Kitchen,DailyChoice,251.89,437.34,SUP014
+PROD0079,Eco Item 079,Sports,UrbanLeaf,1180.97,1918.94,SUP008
+PROD0080,Everyday Item 080,Home & Kitchen,DailyChoice,467.98,658.31,SUP007
+PROD0081,Classic Pack 081,Grocery,DailyChoice,870.19,1572.26,SUP006
+PROD0082,Classic Pack 082,Fashion,UrbanLeaf,84.48,151.32,SUP009
+PROD0083,Smart Set 083,Beauty,HomeEase,1024.81,1353.02,SUP013
+PROD0084,Smart Item 084,Electronics,Nova,1392.7,1680.17,SUP003
+PROD0085,Everyday Series 085,Beauty,HomeEase,1564.17,2622.61,SUP011
+PROD0086,Classic Set 086,Fashion,HomeEase,1672.19,2900.41,SUP006
+PROD0087,Premium Set 087,Fashion,GlowUp,2097.28,3834.81,SUP004
+PROD0088,Classic Set 088,Grocery,GlowUp,570.04,1012.5,SUP002
+PROD0089,Smart Pack 089,Home & Kitchen,HomeEase,336.39,532.29,SUP001
+PROD0090,Eco Item 090,Home & Kitchen,FitPro,2134.78,3277.18,SUP012
+PROD0091,Eco Series 091,Fashion,DailyChoice,425.27,509.75,SUP012
+PROD0092,Eco Series 092,Grocery,GlowUp,2437.91,3279.62,SUP014
+PROD0093,Classic Item 093,Grocery,HomeEase,2112.64,3143.49,SUP001
+PROD0094,Premium Set 094,Sports,Nova,1272.16,2036.85,SUP011
+PROD0095,Everyday Series 095,Electronics,FitPro,2454.3,3812.41,SUP010
+PROD0096,Eco Series 096,Home & Kitchen,UrbanLeaf,279.55,468.96,SUP003
+PROD0097,Smart Set 097,Fashion,HomeEase,785.54,1074.18,SUP004
+PROD0098,Classic Series 098,Sports,HomeEase,1610.03,2509.26,SUP002
+PROD0099,Everyday Pack 099,Beauty,DailyChoice,901.02,1116.41,SUP013
+PROD0100,Everyday Series 100,Home & Kitchen,FitPro,2323.8,3386.14,SUP012
+PROD0101,Classic Pack 101,Electronics,GlowUp,201.44,338.94,SUP011
+PROD0102,Eco Item 102,Grocery,GlowUp,1391.55,2288.51,SUP011
+PROD0103,Premium Item 103,Fashion,GlowUp,1493.53,2753.67,SUP014
+PROD0104,Smart Item 104,Home & Kitchen,UrbanLeaf,1645.71,2248.35,SUP011
+PROD0105,Eco Item 105,Beauty,FitPro,668.94,1012.63,SUP001
+PROD0106,Smart Series 106,Electronics,FitPro,936.83,1312.3,SUP004
+PROD0107,Eco Pack 107,Electronics,GlowUp,2115.45,3120.72,SUP015
+PROD0108,Smart Pack 108,Sports,GlowUp,519.56,911.39,SUP007
+PROD0109,Everyday Pack 109,Home & Kitchen,DailyChoice,2074.09,3398.23,SUP010
+PROD0110,Everyday Set 110,Beauty,Nova,1424.13,2522.47,SUP011
+PROD0111,Premium Pack 111,Electronics,Nova,1914.98,2520.79,SUP006
+PROD0112,Everyday Item 112,Fashion,HomeEase,1795.47,3169.28,SUP006
+PROD0113,Classic Item 113,Electronics,HomeEase,550.48,671.61,SUP011
+PROD0114,Everyday Series 114,Beauty,FitPro,1439.28,2555.24,SUP009
+PROD0115,Eco Item 115,Grocery,FitPro,2174.6,3045.48,SUP014
+PROD0116,Classic Set 116,Grocery,UrbanLeaf,1103.01,1534.04,SUP015
+PROD0117,Everyday Item 117,Sports,UrbanLeaf,2417.81,3682.56,SUP002
+PROD0118,Classic Series 118,Home & Kitchen,Nova,1152.45,2086.24,SUP004
+PROD0119,Smart Pack 119,Beauty,HomeEase,391.25,474.2,SUP005
+PROD0120,Eco Pack 120,Sports,Nova,998.01,1413.18,SUP001
