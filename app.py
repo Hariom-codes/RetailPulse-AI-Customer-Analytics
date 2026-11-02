@@ -1,3 +1,4 @@
+from prometheus_client import Counter, Gauge, CollectorRegistry, start_http_server
 from io import BytesIO
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
