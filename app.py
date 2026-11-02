@@ -646,6 +646,293 @@ with st.expander("View Transaction Records"):
     )
 
 
+# =========================================================
+# DEMAND FORECASTING - PROPHET + LSTM
+# =========================================================
+
+st.header("Demand Forecasting - Prophet vs LSTM")
+st.write(
+    "Select a product to generate a 30-day demand forecast "
+    "using Prophet and LSTM models."
+)
+
+demand_df = load_csv("daily_product_demand.csv")
+
+if demand_df is not None:
+    demand_df["Order_Date"] = pd.to_datetime(
+        demand_df["Order_Date"], errors="coerce"
+    )
+    demand_df["Units_Sold"] = pd.to_numeric(
+        demand_df["Units_Sold"], errors="coerce"
+    )
+
+    demand_df = demand_df.dropna(
+        subset=["Order_Date", "Product_ID", "Units_Sold"]
+    )
+
+    product_totals = (
+        demand_df.groupby("Product_ID")["Units_Sold"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    selected_product = st.selectbox(
+        "Select Product ID",
+        product_totals.index.tolist(),
+        key="forecast_product"
+    )
+
+    product_data = demand_df[
+        demand_df["Product_ID"] == selected_product
+    ]
+
+    daily_series = (
+        product_data.groupby("Order_Date")["Units_Sold"]
+        .sum()
+        .sort_index()
+    )
+
+    daily_series = daily_series.asfreq("D", fill_value=0)
+
+    st.write(f"Historical daily records: {len(daily_series)}")
+
+    if len(daily_series) < 90:
+        st.warning("At least 90 days of demand history is required.")
+
+    elif st.button("Generate 30-Day Forecast", key="run_forecast"):
+
+        import numpy as np
+
+        with st.spinner("Training Prophet and LSTM models..."):
+
+            forecast_results = {}
+            metric_results = {}
+
+            # ---------------- PROPHET ----------------
+            try:
+                from prophet import Prophet
+
+                prophet_data = pd.DataFrame({
+                    "ds": daily_series.index,
+                    "y": daily_series.values
+                })
+
+                train_prophet = prophet_data.iloc[:-30].copy()
+                test_prophet = prophet_data.iloc[-30:].copy()
+
+                prophet_model_test = Prophet(
+                    weekly_seasonality=True,
+                    yearly_seasonality=True,
+                    daily_seasonality=False
+                )
+
+                prophet_model_test.fit(train_prophet)
+
+                test_future = prophet_model_test.make_future_dataframe(
+                    periods=30,
+                    freq="D"
+                )
+
+                test_prediction = prophet_model_test.predict(
+                    test_future
+                )["yhat"].tail(30).clip(lower=0).values
+
+                actual = test_prophet["y"].values
+
+                prophet_wape = (
+                    np.sum(np.abs(actual - test_prediction))
+                    / max(np.sum(actual), 1)
+                ) * 100
+
+                prophet_model = Prophet(
+                    weekly_seasonality=True,
+                    yearly_seasonality=True,
+                    daily_seasonality=False
+                )
+
+                prophet_model.fit(prophet_data)
+
+                future = prophet_model.make_future_dataframe(
+                    periods=30,
+                    freq="D"
+                )
+
+                prophet_forecast = (
+                    prophet_model.predict(future)
+                    .tail(30)["yhat"]
+                    .clip(lower=0)
+                    .values
+                )
+
+                forecast_results["Prophet"] = prophet_forecast
+                metric_results["Prophet"] = prophet_wape
+
+            except Exception as e:
+                st.error(f"Prophet error: {e}")
+
+            # ---------------- LSTM ----------------
+            try:
+                import torch
+                import torch.nn as nn
+                from sklearn.preprocessing import MinMaxScaler
+
+                torch.manual_seed(42)
+
+                class DemandLSTM(nn.Module):
+                    def __init__(self):
+                        super().__init__()
+                        self.lstm = nn.LSTM(
+                            input_size=1,
+                            hidden_size=32,
+                            batch_first=True
+                        )
+                        self.fc = nn.Linear(32, 1)
+
+                    def forward(self, x):
+                        output, _ = self.lstm(x)
+                        return self.fc(output[:, -1, :])
+
+                def train_and_predict(values, horizon=30, epochs=12):
+                    values = np.asarray(values, dtype=float)
+
+                    scaler = MinMaxScaler()
+                    scaled = scaler.fit_transform(
+                        values.reshape(-1, 1)
+                    )
+
+                    window = 30
+                    X, y = [], []
+
+                    for i in range(window, len(scaled)):
+                        X.append(scaled[i-window:i])
+                        y.append(scaled[i])
+
+                    X = torch.tensor(
+                        np.array(X), dtype=torch.float32
+                    )
+                    y = torch.tensor(
+                        np.array(y), dtype=torch.float32
+                    )
+
+                    model = DemandLSTM()
+                    optimizer = torch.optim.Adam(
+                        model.parameters(), lr=0.005
+                    )
+                    loss_fn = nn.MSELoss()
+
+                    model.train()
+
+                    for _ in range(epochs):
+                        optimizer.zero_grad()
+                        output = model(X)
+                        loss = loss_fn(output, y)
+                        loss.backward()
+                        optimizer.step()
+
+                    model.eval()
+
+                    sequence = scaled[-window:].reshape(1, window, 1)
+                    predictions = []
+
+                    with torch.no_grad():
+                        for _ in range(horizon):
+                            x_input = torch.tensor(
+                                sequence, dtype=torch.float32
+                            )
+                            next_value = model(x_input).item()
+                            predictions.append(next_value)
+
+                            sequence = np.concatenate(
+                                [
+                                    sequence[:, 1:, :],
+                                    np.array(next_value).reshape(1, 1, 1)
+                                ],
+                                axis=1
+                            )
+
+                    predictions = scaler.inverse_transform(
+                        np.array(predictions).reshape(-1, 1)
+                    ).flatten()
+
+                    return np.maximum(predictions, 0)
+
+                train_values = daily_series.values[:-30]
+                test_values = daily_series.values[-30:]
+
+                lstm_test_prediction = train_and_predict(
+                    train_values, horizon=30
+                )
+
+                lstm_wape = (
+                    np.sum(
+                        np.abs(test_values - lstm_test_prediction)
+                    ) / max(np.sum(test_values), 1)
+                ) * 100
+
+                lstm_future = train_and_predict(
+                    daily_series.values, horizon=30
+                )
+
+                forecast_results["LSTM"] = lstm_future
+                metric_results["LSTM"] = lstm_wape
+
+            except Exception as e:
+                st.error(f"LSTM error: {e}")
+
+        # ---------------- RESULTS ----------------
+        if forecast_results:
+
+            st.subheader("30-Day Forecast")
+
+            forecast_dates = pd.date_range(
+                start=daily_series.index.max() + pd.Timedelta(days=1),
+                periods=30,
+                freq="D"
+            )
+
+            forecast_table = pd.DataFrame(
+                forecast_results,
+                index=forecast_dates
+            )
+
+            forecast_table.index.name = "Forecast_Date"
+
+            st.line_chart(forecast_table)
+
+            st.subheader("Model Performance - Holdout WAPE")
+
+            metric_df = pd.DataFrame(
+                list(metric_results.items()),
+                columns=["Model", "WAPE (%)"]
+            )
+
+            st.dataframe(
+                metric_df.style.format({"WAPE (%)": "{:.2f}%"}),
+                use_container_width=True
+            )
+
+            st.subheader("Forecast Data")
+            st.dataframe(
+                forecast_table.round(2),
+                use_container_width=True
+            )
+
+            csv_data = forecast_table.to_csv().encode("utf-8")
+
+            st.download_button(
+                "Download Forecast CSV",
+                data=csv_data,
+                file_name="retailpulse_30_day_forecast.csv",
+                mime="text/csv"
+            )
+
+            st.info(
+                "Forecasts are experimental estimates. "
+                "Validate model performance before making inventory decisions."
+            )
+</>
+
+
 # --------------------------------------------------
 # FOOTER
 # --------------------------------------------------
