@@ -222,10 +222,11 @@ if churn is not None:
             st.bar_chart(distribution)
 
     # Customer behaviour comparison
+    
     st.markdown("**Customer Behaviour Comparison**")
 
-    comparison = churn.groupby("Customer_Status").agg(
-        Customers=("Customer_ID", "count"),
+    comparison = churn.groupby("Customer_Status", dropna=False).agg(
+        Customers=("Customer_ID", "nunique"),
         Average_Orders=("Total_Orders", "mean"),
         Average_Revenue=("Total_Revenue", "mean"),
         Average_Order_Value=("Average_Order_Value", "mean"),
@@ -233,6 +234,7 @@ if churn is not None:
     ).round(2)
 
     st.dataframe(comparison, use_container_width=True)
+
 
     st.info(
         "Churn is defined as more than 90 days without a purchase "
