@@ -1,0 +1,1501 @@
+Customer_ID,Customer_Age,Gender,City,State,Region,Signup_Date,Loyalty_Tier
+CUST00001,64,Male,Lucknow,Uttar Pradesh,North,2025-09-15,Silver
+CUST00002,28,Male,Hyderabad,Telangana,South,2023-10-05,Bronze
+CUST00003,62,Female,Chandigarh,Chandigarh,North,2023-07-15,Bronze
+CUST00004,50,Male,Pune,Maharashtra,West,2025-07-04,Silver
+CUST00005,34,Female,Lucknow,Uttar Pradesh,North,2025-05-13,Gold
+CUST00006,23,Female,Ahmedabad,Gujarat,West,2024-04-28,Silver
+CUST00007,21,Male,Bengaluru,Karnataka,South,2023-08-30,Bronze
+CUST00008,37,Female,Lucknow,Uttar Pradesh,North,2023-11-20,Silver
+CUST00009,65,Female,Chandigarh,Chandigarh,North,2024-12-31,Bronze
+CUST00010,64,Female,Pune,Maharashtra,West,2023-07-11,Silver
+CUST00011,44,Male,Hyderabad,Telangana,South,2023-01-17,Bronze
+CUST00012,32,Male,Chandigarh,Chandigarh,North,2024-06-07,Bronze
+CUST00013,23,Female,Chandigarh,Chandigarh,North,2025-07-06,Bronze
+CUST00014,64,Female,Bengaluru,Karnataka,South,2024-02-05,Bronze
+CUST00015,31,Female,Jaipur,Rajasthan,North,2025-06-24,Bronze
+CUST00016,28,Male,Pune,Maharashtra,West,2025-06-04,Bronze
+CUST00017,56,Female,Mumbai,Maharashtra,West,2024-12-05,Silver
+CUST00018,26,Male,Chandigarh,Chandigarh,North,2023-01-22,Silver
+CUST00019,43,Female,Jaipur,Rajasthan,North,2024-04-18,Bronze
+CUST00020,33,Male,Mumbai,Maharashtra,West,2023-04-30,Gold
+CUST00021,22,Female,Pune,Maharashtra,West,2023-07-29,Bronze
+CUST00022,69,Male,Delhi,Delhi,North,2023-11-02,Silver
+CUST00023,27,Male,Ahmedabad,Gujarat,West,2023-09-27,Bronze
+CUST00024,67,Female,Jaipur,Rajasthan,North,2024-12-04,Bronze
+CUST00025,20,Male,Kolkata,West Bengal,East,2024-11-17,Silver
+CUST00026,30,Male,Delhi,Delhi,North,2023-10-12,Silver
+CUST00027,60,Male,Ahmedabad,Gujarat,West,2024-12-16,Gold
+CUST00028,66,Female,Bengaluru,Karnataka,South,2024-11-06,Silver
+CUST00029,47,Female,Lucknow,Uttar Pradesh,North,2025-02-01,Platinum
+CUST00030,62,Male,Hyderabad,Telangana,South,2023-08-15,Bronze
+CUST00031,23,Female,Kolkata,West Bengal,East,2025-08-05,Bronze
+CUST00032,34,Female,Bengaluru,Karnataka,South,2024-01-16,Bronze
+CUST00033,62,Male,Pune,Maharashtra,West,2024-04-04,Bronze
+CUST00034,68,Female,Bengaluru,Karnataka,South,2023-01-07,Silver
+CUST00035,70,Female,Lucknow,Uttar Pradesh,North,2023-01-29,Silver
+CUST00036,36,Female,Pune,Maharashtra,West,2025-06-25,Bronze
+CUST00037,59,Male,Kolkata,West Bengal,East,2023-02-02,Platinum
+CUST00038,52,Female,Lucknow,Uttar Pradesh,North,2024-10-07,Gold
+CUST00039,63,Female,Mumbai,Maharashtra,West,2025-05-28,Bronze
+CUST00040,43,Male,Hyderabad,Telangana,South,2023-03-20,Bronze
+CUST00041,68,Male,Kolkata,West Bengal,East,2025-07-16,Bronze
+CUST00042,22,Male,Mumbai,Maharashtra,West,2025-08-04,Bronze
+CUST00043,46,Male,Ahmedabad,Gujarat,West,2024-04-03,Bronze
+CUST00044,54,Female,Kolkata,West Bengal,East,2024-07-23,Silver
+CUST00045,37,Male,Ahmedabad,Gujarat,West,2025-09-09,Bronze
+CUST00046,66,Male,Pune,Maharashtra,West,2024-06-21,Bronze
+CUST00047,38,Female,Mumbai,Maharashtra,West,2024-04-26,Platinum
+CUST00048,27,Male,Hyderabad,Telangana,South,2024-03-05,Silver
+CUST00049,22,Female,Lucknow,Uttar Pradesh,North,2025-01-07,Platinum
+CUST00050,53,Male,Chandigarh,Chandigarh,North,2023-10-12,Bronze
+CUST00051,23,Male,Bengaluru,Karnataka,South,2024-05-30,Bronze
+CUST00052,43,Male,Delhi,Delhi,North,2025-09-03,Silver
+CUST00053,21,Male,Hyderabad,Telangana,South,2023-04-09,Bronze
+CUST00054,56,Male,Mumbai,Maharashtra,West,2024-02-01,Bronze
+CUST00055,56,Female,Chandigarh,Chandigarh,North,2024-05-03,Silver
+CUST00056,67,Female,Hyderabad,Telangana,South,2023-02-08,Silver
+CUST00057,52,Male,Mumbai,Maharashtra,West,2023-09-28,Bronze
+CUST00058,18,Female,Jaipur,Rajasthan,North,2025-06-05,Silver
+CUST00059,41,Female,Jaipur,Rajasthan,North,2025-03-07,Bronze
+CUST00060,53,Female,Ahmedabad,Gujarat,West,2023-06-06,Bronze
+CUST00061,23,Male,Hyderabad,Telangana,South,2023-03-16,Bronze
+CUST00062,58,Male,Jaipur,Rajasthan,North,2025-06-02,Bronze
+CUST00063,63,Male,Mumbai,Maharashtra,West,2025-03-10,Bronze
+CUST00064,61,Female,Ahmedabad,Gujarat,West,2023-05-10,Platinum
+CUST00065,48,Female,Mumbai,Maharashtra,West,2024-11-17,Silver
+CUST00066,37,Male,Ahmedabad,Gujarat,West,2025-08-31,Gold
+CUST00067,41,Male,Hyderabad,Telangana,South,2023-03-25,Bronze
+CUST00068,42,Female,Chandigarh,Chandigarh,North,2023-01-22,Bronze
+CUST00069,53,Female,Lucknow,Uttar Pradesh,North,2024-04-03,Bronze
+CUST00070,38,Other,Kolkata,West Bengal,East,2024-06-22,Bronze
+CUST00071,47,Female,Chandigarh,Chandigarh,North,2024-12-07,Bronze
+CUST00072,41,Male,Pune,Maharashtra,West,2025-04-28,Gold
+CUST00073,61,Female,Mumbai,Maharashtra,West,2024-01-17,Silver
+CUST00074,59,Female,Pune,Maharashtra,West,2025-01-17,Silver
+CUST00075,47,Male,Chandigarh,Chandigarh,North,2024-03-15,Silver
+CUST00076,39,Female,Ahmedabad,Gujarat,West,2024-08-26,Platinum
+CUST00077,45,Female,Kolkata,West Bengal,East,2025-09-15,Bronze
+CUST00078,24,Male,Kolkata,West Bengal,East,2023-01-21,Bronze
+CUST00079,52,Female,Delhi,Delhi,North,2023-10-30,Bronze
+CUST00080,45,Female,Kolkata,West Bengal,East,2025-09-02,Gold
+CUST00081,31,Female,Lucknow,Uttar Pradesh,North,2025-05-18,Platinum
+CUST00082,27,Male,Kolkata,West Bengal,East,2025-08-12,Bronze
+CUST00083,33,Male,Chandigarh,Chandigarh,North,2023-03-25,Gold
+CUST00084,33,Female,Delhi,Delhi,North,2025-02-12,Gold
+CUST00085,48,Male,Chandigarh,Chandigarh,North,2024-10-20,Bronze
+CUST00086,59,Female,Chandigarh,Chandigarh,North,2025-08-10,Bronze
+CUST00087,42,Female,Bengaluru,Karnataka,South,2024-03-28,Bronze
+CUST00088,30,Male,Delhi,Delhi,North,2024-01-22,Platinum
+CUST00089,23,Female,Chandigarh,Chandigarh,North,2024-05-21,Bronze
+CUST00090,61,Female,Bengaluru,Karnataka,South,2023-09-14,Gold
+CUST00091,26,Male,Bengaluru,Karnataka,South,2024-07-23,Bronze
+CUST00092,62,Female,Delhi,Delhi,North,2025-06-10,Gold
+CUST00093,53,Female,Pune,Maharashtra,West,2025-07-22,Silver
+CUST00094,60,Female,Ahmedabad,Gujarat,West,2024-06-10,Silver
+CUST00095,37,Female,Lucknow,Uttar Pradesh,North,2023-06-11,Gold
+CUST00096,35,Male,Ahmedabad,Gujarat,West,2025-08-14,Gold
+CUST00097,60,Female,Kolkata,West Bengal,East,2023-06-12,Gold
+CUST00098,38,Female,Lucknow,Uttar Pradesh,North,2025-04-11,Bronze
+CUST00099,21,Female,Kolkata,West Bengal,East,2025-03-03,Silver
+CUST00100,67,Female,Chandigarh,Chandigarh,North,2025-03-02,Bronze
+CUST00101,50,Male,Mumbai,Maharashtra,West,2024-06-07,Bronze
+CUST00102,44,Female,Delhi,Delhi,North,2025-02-24,Silver
+CUST00103,24,Male,Lucknow,Uttar Pradesh,North,2023-09-28,Bronze
+CUST00104,23,Male,Lucknow,Uttar Pradesh,North,2024-05-06,Silver
+CUST00105,32,Male,Chandigarh,Chandigarh,North,2023-07-27,Platinum
+CUST00106,35,Female,Pune,Maharashtra,West,2024-06-22,Bronze
+CUST00107,49,Female,Bengaluru,Karnataka,South,2024-08-06,Silver
+CUST00108,28,Female,Chandigarh,Chandigarh,North,2023-03-01,Bronze
+CUST00109,37,Female,Jaipur,Rajasthan,North,2024-03-05,Bronze
+CUST00110,41,Female,Bengaluru,Karnataka,South,2025-09-11,Bronze
+CUST00111,32,Female,Delhi,Delhi,North,2024-10-18,Platinum
+CUST00112,65,Female,Bengaluru,Karnataka,South,2024-08-27,Gold
+CUST00113,24,Male,Pune,Maharashtra,West,2023-11-05,Gold
+CUST00114,38,Male,Bengaluru,Karnataka,South,2024-06-03,Platinum
+CUST00115,59,Female,Delhi,Delhi,North,2024-08-13,Bronze
+CUST00116,43,Female,Pune,Maharashtra,West,2023-01-27,Bronze
+CUST00117,61,Male,Ahmedabad,Gujarat,West,2024-11-16,Silver
+CUST00118,31,Male,Lucknow,Uttar Pradesh,North,2024-07-15,Silver
+CUST00119,54,Female,Lucknow,Uttar Pradesh,North,2023-07-18,Bronze
+CUST00120,38,Male,Kolkata,West Bengal,East,2024-01-22,Bronze
+CUST00121,35,Female,Ahmedabad,Gujarat,West,2023-12-15,Silver
+CUST00122,22,Female,Ahmedabad,Gujarat,West,2025-08-17,Silver
+CUST00123,20,Male,Bengaluru,Karnataka,South,2025-07-28,Bronze
+CUST00124,40,Male,Lucknow,Uttar Pradesh,North,2024-11-23,Silver
+CUST00125,43,Female,Delhi,Delhi,North,2024-06-19,Silver
+CUST00126,54,Female,Hyderabad,Telangana,South,2025-04-07,Silver
+CUST00127,41,Female,Hyderabad,Telangana,South,2024-01-13,Bronze
+CUST00128,66,Female,Pune,Maharashtra,West,2025-06-17,Gold
+CUST00129,36,Male,Lucknow,Uttar Pradesh,North,2025-07-04,Bronze
+CUST00130,68,Female,Lucknow,Uttar Pradesh,North,2024-07-11,Bronze
+CUST00131,42,Female,Hyderabad,Telangana,South,2024-06-10,Gold
+CUST00132,38,Female,Lucknow,Uttar Pradesh,North,2023-06-02,Silver
+CUST00133,29,Male,Bengaluru,Karnataka,South,2025-01-03,Bronze
+CUST00134,58,Female,Jaipur,Rajasthan,North,2023-07-25,Silver
+CUST00135,50,Female,Mumbai,Maharashtra,West,2024-03-30,Silver
+CUST00136,67,Male,Ahmedabad,Gujarat,West,2023-09-30,Gold
+CUST00137,70,Male,Kolkata,West Bengal,East,2025-06-12,Gold
+CUST00138,21,Female,Pune,Maharashtra,West,2023-08-24,Silver
+CUST00139,59,Male,Jaipur,Rajasthan,North,2025-05-01,Silver
+CUST00140,24,Male,Hyderabad,Telangana,South,2025-01-09,Bronze
+CUST00141,39,Male,Ahmedabad,Gujarat,West,2024-06-04,Bronze
+CUST00142,50,Female,Lucknow,Uttar Pradesh,North,2024-11-08,Bronze
+CUST00143,34,Female,Kolkata,West Bengal,East,2025-08-01,Silver
+CUST00144,41,Female,Lucknow,Uttar Pradesh,North,2025-08-13,Silver
+CUST00145,51,Male,Delhi,Delhi,North,2025-04-10,Bronze
+CUST00146,45,Female,Delhi,Delhi,North,2024-12-26,Bronze
+CUST00147,60,Female,Kolkata,West Bengal,East,2024-05-15,Silver
+CUST00148,58,Female,Kolkata,West Bengal,East,2023-04-27,Bronze
+CUST00149,56,Female,Hyderabad,Telangana,South,2024-01-21,Gold
+CUST00150,39,Male,Kolkata,West Bengal,East,2023-12-10,Bronze
+CUST00151,66,Female,Bengaluru,Karnataka,South,2024-08-06,Silver
+CUST00152,34,Male,Lucknow,Uttar Pradesh,North,2024-01-30,Platinum
+CUST00153,51,Female,Jaipur,Rajasthan,North,2023-03-05,Bronze
+CUST00154,23,Male,Chandigarh,Chandigarh,North,2024-12-17,Silver
+CUST00155,63,Male,Kolkata,West Bengal,East,2024-12-21,Bronze
+CUST00156,23,Male,Pune,Maharashtra,West,2023-03-13,Silver
+CUST00157,51,Female,Delhi,Delhi,North,2025-02-27,Silver
+CUST00158,18,Male,Bengaluru,Karnataka,South,2023-10-01,Bronze
+CUST00159,27,Female,Ahmedabad,Gujarat,West,2025-09-16,Silver
+CUST00160,38,Male,Chandigarh,Chandigarh,North,2023-11-16,Gold
+CUST00161,22,Male,Jaipur,Rajasthan,North,2023-12-04,Bronze
+CUST00162,19,Female,Chandigarh,Chandigarh,North,2024-01-01,Bronze
+CUST00163,39,Male,Kolkata,West Bengal,East,2024-05-09,Gold
+CUST00164,65,Male,Hyderabad,Telangana,South,2024-08-29,Silver
+CUST00165,19,Female,Delhi,Delhi,North,2023-06-15,Gold
+CUST00166,27,Male,Delhi,Delhi,North,2024-06-27,Silver
+CUST00167,51,Male,Ahmedabad,Gujarat,West,2023-01-11,Gold
+CUST00168,33,Male,Hyderabad,Telangana,South,2023-10-28,Silver
+CUST00169,65,Female,Lucknow,Uttar Pradesh,North,2024-12-29,Gold
+CUST00170,68,Female,Mumbai,Maharashtra,West,2025-03-11,Gold
+CUST00171,56,Female,Bengaluru,Karnataka,South,2023-04-12,Silver
+CUST00172,39,Female,Delhi,Delhi,North,2024-02-29,Bronze
+CUST00173,29,Male,Pune,Maharashtra,West,2024-01-27,Bronze
+CUST00174,41,Male,Delhi,Delhi,North,2025-02-17,Bronze
+CUST00175,64,Female,Chandigarh,Chandigarh,North,2023-08-02,Bronze
+CUST00176,57,Male,Delhi,Delhi,North,2024-11-21,Bronze
+CUST00177,55,Male,Delhi,Delhi,North,2023-03-29,Silver
+CUST00178,27,Male,Mumbai,Maharashtra,West,2024-07-06,Silver
+CUST00179,52,Male,Mumbai,Maharashtra,West,2024-02-05,Silver
+CUST00180,68,Other,Jaipur,Rajasthan,North,2024-08-10,Silver
+CUST00181,66,Male,Lucknow,Uttar Pradesh,North,2025-06-07,Bronze
+CUST00182,49,Female,Pune,Maharashtra,West,2023-02-15,Bronze
+CUST00183,24,Male,Delhi,Delhi,North,2024-11-02,Bronze
+CUST00184,38,Female,Delhi,Delhi,North,2024-04-07,Silver
+CUST00185,37,Male,Bengaluru,Karnataka,South,2024-08-14,Bronze
+CUST00186,43,Male,Mumbai,Maharashtra,West,2023-11-06,Bronze
+CUST00187,21,Female,Pune,Maharashtra,West,2023-03-27,Bronze
+CUST00188,63,Female,Ahmedabad,Gujarat,West,2023-04-02,Gold
+CUST00189,69,Male,Jaipur,Rajasthan,North,2024-10-21,Bronze
+CUST00190,39,Male,Lucknow,Uttar Pradesh,North,2024-11-03,Silver
+CUST00191,32,Male,Hyderabad,Telangana,South,2024-12-14,Silver
+CUST00192,57,Male,Lucknow,Uttar Pradesh,North,2025-07-24,Gold
+CUST00193,38,Male,Chandigarh,Chandigarh,North,2025-07-16,Platinum
+CUST00194,32,Male,Delhi,Delhi,North,2023-08-30,Bronze
+CUST00195,39,Male,Jaipur,Rajasthan,North,2025-05-14,Bronze
+CUST00196,69,Male,Chandigarh,Chandigarh,North,2023-01-02,Gold
+CUST00197,45,Female,Pune,Maharashtra,West,2023-08-13,Silver
+CUST00198,31,Female,Hyderabad,Telangana,South,2025-03-11,Silver
+CUST00199,44,Female,Mumbai,Maharashtra,West,2025-01-14,Silver
+CUST00200,58,Male,Jaipur,Rajasthan,North,2025-08-30,Silver
+CUST00201,57,Male,Jaipur,Rajasthan,North,2025-07-14,Platinum
+CUST00202,45,Female,Delhi,Delhi,North,2025-07-17,Platinum
+CUST00203,43,Male,Kolkata,West Bengal,East,2024-08-11,Gold
+CUST00204,66,Male,Jaipur,Rajasthan,North,2023-04-26,Bronze
+CUST00205,19,Female,Bengaluru,Karnataka,South,2024-10-27,Gold
+CUST00206,42,Female,Hyderabad,Telangana,South,2025-07-06,Bronze
+CUST00207,20,Female,Hyderabad,Telangana,South,2023-04-13,Bronze
+CUST00208,25,Male,Bengaluru,Karnataka,South,2023-07-13,Gold
+CUST00209,61,Male,Ahmedabad,Gujarat,West,2023-06-15,Bronze
+CUST00210,50,Female,Bengaluru,Karnataka,South,2025-05-20,Bronze
+CUST00211,59,Male,Bengaluru,Karnataka,South,2023-03-31,Bronze
+CUST00212,69,Female,Hyderabad,Telangana,South,2024-11-16,Gold
+CUST00213,52,Female,Lucknow,Uttar Pradesh,North,2023-05-02,Silver
+CUST00214,23,Female,Hyderabad,Telangana,South,2023-05-23,Silver
+CUST00215,56,Male,Kolkata,West Bengal,East,2025-09-20,Bronze
+CUST00216,69,Male,Delhi,Delhi,North,2023-04-16,Gold
+CUST00217,40,Female,Chandigarh,Chandigarh,North,2025-06-05,Gold
+CUST00218,42,Female,Lucknow,Uttar Pradesh,North,2024-03-03,Bronze
+CUST00219,67,Female,Mumbai,Maharashtra,West,2023-11-01,Bronze
+CUST00220,60,Male,Chandigarh,Chandigarh,North,2025-05-21,Bronze
+CUST00221,36,Male,Delhi,Delhi,North,2025-08-28,Platinum
+CUST00222,22,Female,Kolkata,West Bengal,East,2023-11-13,Silver
+CUST00223,68,Female,Kolkata,West Bengal,East,2025-08-20,Platinum
+CUST00224,28,Female,Mumbai,Maharashtra,West,2024-09-26,Bronze
+CUST00225,29,Male,Lucknow,Uttar Pradesh,North,2025-06-20,Gold
+CUST00226,27,Female,Ahmedabad,Gujarat,West,2023-01-09,Gold
+CUST00227,25,Female,Bengaluru,Karnataka,South,2025-02-12,Silver
+CUST00228,41,Female,Lucknow,Uttar Pradesh,North,2023-03-14,Platinum
+CUST00229,45,Male,Ahmedabad,Gujarat,West,2023-12-25,Bronze
+CUST00230,58,Male,Kolkata,West Bengal,East,2023-08-11,Bronze
+CUST00231,53,Female,Hyderabad,Telangana,South,2024-02-20,Silver
+CUST00232,54,Male,Delhi,Delhi,North,2024-07-06,Gold
+CUST00233,38,Male,Mumbai,Maharashtra,West,2024-01-05,Silver
+CUST00234,25,Female,Delhi,Delhi,North,2024-12-16,Bronze
+CUST00235,26,Male,Pune,Maharashtra,West,2023-09-21,Silver
+CUST00236,64,Female,Pune,Maharashtra,West,2025-04-19,Bronze
+CUST00237,32,Male,Lucknow,Uttar Pradesh,North,2024-11-20,Silver
+CUST00238,65,Female,Kolkata,West Bengal,East,2025-05-09,Silver
+CUST00239,63,Female,Kolkata,West Bengal,East,2023-11-14,Gold
+CUST00240,57,Male,Bengaluru,Karnataka,South,2023-03-25,Bronze
+CUST00241,35,Male,Bengaluru,Karnataka,South,2023-11-14,Bronze
+CUST00242,59,Male,Bengaluru,Karnataka,South,2023-04-21,Bronze
+CUST00243,37,Male,Hyderabad,Telangana,South,2023-09-08,Bronze
+CUST00244,23,Female,Chandigarh,Chandigarh,North,2024-01-18,Gold
+CUST00245,29,Female,Jaipur,Rajasthan,North,2023-01-07,Gold
+CUST00246,19,Male,Chandigarh,Chandigarh,North,2024-04-03,Bronze
+CUST00247,24,Male,Delhi,Delhi,North,2023-03-25,Gold
+CUST00248,33,Male,Chandigarh,Chandigarh,North,2023-07-27,Gold
+CUST00249,20,Female,Hyderabad,Telangana,South,2025-06-18,Gold
+CUST00250,62,Male,Delhi,Delhi,North,2024-01-25,Bronze
+CUST00251,20,Female,Chandigarh,Chandigarh,North,2023-11-10,Platinum
+CUST00252,44,Female,Hyderabad,Telangana,South,2023-01-22,Bronze
+CUST00253,67,Female,Jaipur,Rajasthan,North,2024-02-14,Bronze
+CUST00254,60,Male,Chandigarh,Chandigarh,North,2025-06-13,Bronze
+CUST00255,57,Female,Hyderabad,Telangana,South,2024-05-29,Silver
+CUST00256,55,Male,Bengaluru,Karnataka,South,2023-05-07,Bronze
+CUST00257,50,Male,Kolkata,West Bengal,East,2025-03-19,Bronze
+CUST00258,45,Female,Bengaluru,Karnataka,South,2024-11-30,Bronze
+CUST00259,18,Female,Kolkata,West Bengal,East,2025-05-23,Gold
+CUST00260,25,Male,Mumbai,Maharashtra,West,2023-01-14,Gold
+CUST00261,54,Male,Mumbai,Maharashtra,West,2025-08-28,Bronze
+CUST00262,49,Male,Mumbai,Maharashtra,West,2025-09-04,Gold
+CUST00263,65,Male,Jaipur,Rajasthan,North,2023-01-12,Gold
+CUST00264,60,Male,Bengaluru,Karnataka,South,2023-03-28,Gold
+CUST00265,54,Male,Kolkata,West Bengal,East,2024-06-07,Bronze
+CUST00266,21,Male,Hyderabad,Telangana,South,2025-06-27,Silver
+CUST00267,47,Female,Delhi,Delhi,North,2024-06-20,Platinum
+CUST00268,23,Female,Hyderabad,Telangana,South,2023-10-28,Silver
+CUST00269,63,Female,Delhi,Delhi,North,2023-08-31,Bronze
+CUST00270,36,Male,Pune,Maharashtra,West,2023-05-02,Silver
+CUST00271,49,Female,Hyderabad,Telangana,South,2023-05-27,Silver
+CUST00272,26,Female,Chandigarh,Chandigarh,North,2024-07-20,Silver
+CUST00273,29,Female,Chandigarh,Chandigarh,North,2025-01-19,Bronze
+CUST00274,28,Female,Lucknow,Uttar Pradesh,North,2023-12-22,Bronze
+CUST00275,63,Female,Bengaluru,Karnataka,South,2024-11-15,Gold
+CUST00276,33,Female,Delhi,Delhi,North,2025-06-22,Gold
+CUST00277,18,Male,Delhi,Delhi,North,2025-01-02,Bronze
+CUST00278,62,Female,Bengaluru,Karnataka,South,2024-09-22,Platinum
+CUST00279,70,Female,Jaipur,Rajasthan,North,2023-11-05,Bronze
+CUST00280,38,Female,Lucknow,Uttar Pradesh,North,2024-11-25,Silver
+CUST00281,47,Female,Jaipur,Rajasthan,North,2023-10-15,Gold
+CUST00282,30,Male,Jaipur,Rajasthan,North,2023-11-03,Gold
+CUST00283,51,Male,Jaipur,Rajasthan,North,2025-03-22,Platinum
+CUST00284,21,Female,Bengaluru,Karnataka,South,2024-08-16,Bronze
+CUST00285,45,Female,Jaipur,Rajasthan,North,2025-08-23,Gold
+CUST00286,55,Female,Chandigarh,Chandigarh,North,2025-07-02,Bronze
+CUST00287,48,Male,Mumbai,Maharashtra,West,2024-12-23,Silver
+CUST00288,44,Male,Pune,Maharashtra,West,2024-10-23,Gold
+CUST00289,22,Female,Delhi,Delhi,North,2024-07-02,Silver
+CUST00290,42,Female,Delhi,Delhi,North,2023-12-18,Bronze
+CUST00291,20,Female,Pune,Maharashtra,West,2023-11-08,Gold
+CUST00292,50,Male,Bengaluru,Karnataka,South,2025-05-22,Bronze
+CUST00293,21,Female,Hyderabad,Telangana,South,2023-02-28,Bronze
+CUST00294,42,Male,Bengaluru,Karnataka,South,2024-10-04,Silver
+CUST00295,37,Female,Delhi,Delhi,North,2025-07-12,Silver
+CUST00296,51,Male,Delhi,Delhi,North,2024-12-14,Gold
+CUST00297,43,Male,Pune,Maharashtra,West,2025-01-24,Bronze
+CUST00298,22,Female,Jaipur,Rajasthan,North,2023-02-04,Bronze
+CUST00299,52,Female,Bengaluru,Karnataka,South,2024-03-20,Gold
+CUST00300,45,Male,Kolkata,West Bengal,East,2023-04-03,Silver
+CUST00301,46,Female,Pune,Maharashtra,West,2025-08-07,Bronze
+CUST00302,26,Male,Chandigarh,Chandigarh,North,2025-08-16,Gold
+CUST00303,69,Male,Delhi,Delhi,North,2023-07-26,Silver
+CUST00304,55,Male,Pune,Maharashtra,West,2023-12-19,Silver
+CUST00305,67,Male,Bengaluru,Karnataka,South,2025-06-21,Silver
+CUST00306,23,Female,Delhi,Delhi,North,2023-11-28,Gold
+CUST00307,36,Male,Hyderabad,Telangana,South,2025-03-27,Gold
+CUST00308,61,Female,Pune,Maharashtra,West,2025-05-11,Silver
+CUST00309,28,Female,Lucknow,Uttar Pradesh,North,2024-12-25,Bronze
+CUST00310,19,Male,Delhi,Delhi,North,2023-06-08,Gold
+CUST00311,64,Female,Bengaluru,Karnataka,South,2025-08-11,Silver
+CUST00312,61,Male,Mumbai,Maharashtra,West,2025-08-14,Silver
+CUST00313,61,Female,Kolkata,West Bengal,East,2023-01-24,Bronze
+CUST00314,26,Male,Ahmedabad,Gujarat,West,2024-02-08,Gold
+CUST00315,38,Male,Jaipur,Rajasthan,North,2025-03-15,Gold
+CUST00316,41,Male,Ahmedabad,Gujarat,West,2024-05-30,Bronze
+CUST00317,51,Male,Bengaluru,Karnataka,South,2025-01-01,Bronze
+CUST00318,39,Male,Chandigarh,Chandigarh,North,2023-12-30,Gold
+CUST00319,20,Female,Chandigarh,Chandigarh,North,2024-01-17,Bronze
+CUST00320,29,Female,Mumbai,Maharashtra,West,2024-06-15,Platinum
+CUST00321,45,Female,Jaipur,Rajasthan,North,2025-08-13,Silver
+CUST00322,47,Female,Lucknow,Uttar Pradesh,North,2023-06-01,Silver
+CUST00323,43,Male,Mumbai,Maharashtra,West,2024-07-15,Bronze
+CUST00324,65,Male,Ahmedabad,Gujarat,West,2024-11-19,Bronze
+CUST00325,38,Male,Mumbai,Maharashtra,West,2025-08-04,Platinum
+CUST00326,45,Male,Ahmedabad,Gujarat,West,2024-08-30,Bronze
+CUST00327,43,Female,Delhi,Delhi,North,2024-09-08,Gold
+CUST00328,50,Female,Chandigarh,Chandigarh,North,2024-02-24,Bronze
+CUST00329,38,Male,Delhi,Delhi,North,2023-09-07,Bronze
+CUST00330,52,Male,Kolkata,West Bengal,East,2023-04-27,Bronze
+CUST00331,69,Female,Jaipur,Rajasthan,North,2025-05-15,Silver
+CUST00332,51,Female,Lucknow,Uttar Pradesh,North,2024-05-26,Platinum
+CUST00333,58,Male,Ahmedabad,Gujarat,West,2025-01-09,Bronze
+CUST00334,68,Female,Lucknow,Uttar Pradesh,North,2024-07-31,Bronze
+CUST00335,64,Female,Ahmedabad,Gujarat,West,2023-12-01,Bronze
+CUST00336,35,Male,Bengaluru,Karnataka,South,2024-02-22,Silver
+CUST00337,28,Male,Mumbai,Maharashtra,West,2025-07-20,Silver
+CUST00338,40,Female,Kolkata,West Bengal,East,2025-02-12,Gold
+CUST00339,65,Female,Chandigarh,Chandigarh,North,2023-10-22,Silver
+CUST00340,39,Female,Ahmedabad,Gujarat,West,2025-07-26,Silver
+CUST00341,34,Male,Lucknow,Uttar Pradesh,North,2025-01-24,Bronze
+CUST00342,22,Male,Kolkata,West Bengal,East,2024-01-06,Platinum
+CUST00343,61,Female,Hyderabad,Telangana,South,2023-07-05,Bronze
+CUST00344,28,Female,Hyderabad,Telangana,South,2023-09-03,Bronze
+CUST00345,47,Male,Delhi,Delhi,North,2024-09-28,Silver
+CUST00346,32,Female,Chandigarh,Chandigarh,North,2023-09-25,Silver
+CUST00347,44,Female,Bengaluru,Karnataka,South,2024-10-04,Bronze
+CUST00348,52,Female,Lucknow,Uttar Pradesh,North,2023-08-25,Silver
+CUST00349,50,Female,Mumbai,Maharashtra,West,2024-06-13,Gold
+CUST00350,37,Female,Mumbai,Maharashtra,West,2024-07-05,Bronze
+CUST00351,33,Male,Lucknow,Uttar Pradesh,North,2023-01-21,Gold
+CUST00352,51,Female,Jaipur,Rajasthan,North,2025-06-29,Silver
+CUST00353,19,Male,Bengaluru,Karnataka,South,2025-01-06,Bronze
+CUST00354,52,Female,Kolkata,West Bengal,East,2025-05-16,Silver
+CUST00355,57,Male,Ahmedabad,Gujarat,West,2025-03-04,Bronze
+CUST00356,45,Female,Jaipur,Rajasthan,North,2024-06-03,Gold
+CUST00357,64,Male,Ahmedabad,Gujarat,West,2023-04-10,Silver
+CUST00358,56,Male,Ahmedabad,Gujarat,West,2025-01-21,Bronze
+CUST00359,23,Male,Jaipur,Rajasthan,North,2024-04-22,Silver
+CUST00360,26,Male,Delhi,Delhi,North,2024-08-21,Platinum
+CUST00361,37,Female,Hyderabad,Telangana,South,2023-10-25,Silver
+CUST00362,18,Female,Ahmedabad,Gujarat,West,2025-07-28,Platinum
+CUST00363,25,Female,Jaipur,Rajasthan,North,2024-06-09,Bronze
+CUST00364,40,Male,Jaipur,Rajasthan,North,2023-11-30,Bronze
+CUST00365,20,Male,Pune,Maharashtra,West,2023-01-02,Bronze
+CUST00366,21,Male,Delhi,Delhi,North,2024-01-10,Bronze
+CUST00367,42,Male,Chandigarh,Chandigarh,North,2023-10-20,Bronze
+CUST00368,64,Female,Pune,Maharashtra,West,2025-04-16,Bronze
+CUST00369,55,Male,Pune,Maharashtra,West,2025-07-22,Gold
+CUST00370,32,Male,Lucknow,Uttar Pradesh,North,2024-07-06,Gold
+CUST00371,38,Male,Hyderabad,Telangana,South,2023-11-14,Gold
+CUST00372,52,Male,Jaipur,Rajasthan,North,2024-05-16,Bronze
+CUST00373,70,Female,Hyderabad,Telangana,South,2025-04-07,Bronze
+CUST00374,70,Female,Bengaluru,Karnataka,South,2024-01-16,Bronze
+CUST00375,63,Male,Lucknow,Uttar Pradesh,North,2024-09-14,Gold
+CUST00376,69,Male,Chandigarh,Chandigarh,North,2023-01-14,Platinum
+CUST00377,31,Male,Hyderabad,Telangana,South,2024-05-18,Silver
+CUST00378,53,Male,Mumbai,Maharashtra,West,2023-08-19,Bronze
+CUST00379,29,Male,Ahmedabad,Gujarat,West,2025-09-11,Silver
+CUST00380,34,Female,Bengaluru,Karnataka,South,2023-03-25,Bronze
+CUST00381,56,Female,Delhi,Delhi,North,2023-05-10,Bronze
+CUST00382,26,Female,Chandigarh,Chandigarh,North,2025-01-12,Silver
+CUST00383,52,Male,Bengaluru,Karnataka,South,2025-04-17,Silver
+CUST00384,30,Male,Ahmedabad,Gujarat,West,2023-05-25,Bronze
+CUST00385,32,Female,Lucknow,Uttar Pradesh,North,2025-06-09,Bronze
+CUST00386,35,Female,Ahmedabad,Gujarat,West,2025-05-06,Platinum
+CUST00387,68,Female,Pune,Maharashtra,West,2023-01-28,Bronze
+CUST00388,50,Male,Ahmedabad,Gujarat,West,2023-03-07,Bronze
+CUST00389,23,Female,Pune,Maharashtra,West,2023-06-12,Bronze
+CUST00390,44,Male,Lucknow,Uttar Pradesh,North,2023-08-17,Bronze
+CUST00391,40,Female,Kolkata,West Bengal,East,2023-09-18,Bronze
+CUST00392,44,Female,Pune,Maharashtra,West,2024-03-24,Gold
+CUST00393,51,Female,Delhi,Delhi,North,2024-02-28,Bronze
+CUST00394,63,Male,Ahmedabad,Gujarat,West,2024-04-04,Silver
+CUST00395,55,Female,Ahmedabad,Gujarat,West,2025-08-09,Silver
+CUST00396,31,Male,Delhi,Delhi,North,2024-11-06,Silver
+CUST00397,53,Male,Mumbai,Maharashtra,West,2023-10-28,Gold
+CUST00398,70,Male,Jaipur,Rajasthan,North,2025-07-07,Gold
+CUST00399,25,Female,Kolkata,West Bengal,East,2023-10-30,Bronze
+CUST00400,52,Male,Chandigarh,Chandigarh,North,2023-10-14,Gold
+CUST00401,36,Male,Pune,Maharashtra,West,2024-01-30,Silver
+CUST00402,47,Female,Delhi,Delhi,North,2023-01-10,Platinum
+CUST00403,31,Male,Lucknow,Uttar Pradesh,North,2024-12-07,Silver
+CUST00404,37,Female,Pune,Maharashtra,West,2024-09-21,Platinum
+CUST00405,66,Male,Jaipur,Rajasthan,North,2023-09-27,Gold
+CUST00406,42,Male,Lucknow,Uttar Pradesh,North,2024-08-14,Bronze
+CUST00407,57,Female,Bengaluru,Karnataka,South,2025-08-27,Silver
+CUST00408,41,Male,Ahmedabad,Gujarat,West,2024-08-27,Platinum
+CUST00409,31,Male,Bengaluru,Karnataka,South,2025-02-16,Gold
+CUST00410,43,Female,Pune,Maharashtra,West,2025-04-23,Bronze
+CUST00411,55,Female,Jaipur,Rajasthan,North,2025-05-11,Silver
+CUST00412,40,Female,Kolkata,West Bengal,East,2023-12-27,Bronze
+CUST00413,39,Male,Pune,Maharashtra,West,2023-09-14,Bronze
+CUST00414,65,Male,Delhi,Delhi,North,2023-05-13,Bronze
+CUST00415,36,Female,Hyderabad,Telangana,South,2023-10-03,Bronze
+CUST00416,63,Female,Pune,Maharashtra,West,2025-02-14,Gold
+CUST00417,68,Female,Ahmedabad,Gujarat,West,2024-11-13,Bronze
+CUST00418,20,Female,Ahmedabad,Gujarat,West,2025-08-29,Gold
+CUST00419,59,Female,Pune,Maharashtra,West,2024-05-27,Bronze
+CUST00420,36,Male,Lucknow,Uttar Pradesh,North,2023-11-09,Bronze
+CUST00421,26,Male,Hyderabad,Telangana,South,2024-07-29,Bronze
+CUST00422,45,Female,Delhi,Delhi,North,2025-06-04,Bronze
+CUST00423,37,Male,Pune,Maharashtra,West,2025-09-06,Bronze
+CUST00424,62,Male,Lucknow,Uttar Pradesh,North,2023-10-11,Bronze
+CUST00425,24,Female,Ahmedabad,Gujarat,West,2023-05-01,Silver
+CUST00426,31,Female,Ahmedabad,Gujarat,West,2023-04-17,Bronze
+CUST00427,26,Male,Jaipur,Rajasthan,North,2025-07-21,Bronze
+CUST00428,36,Male,Pune,Maharashtra,West,2024-11-17,Bronze
+CUST00429,64,Male,Hyderabad,Telangana,South,2025-09-23,Gold
+CUST00430,69,Female,Mumbai,Maharashtra,West,2023-07-23,Gold
+CUST00431,31,Female,Hyderabad,Telangana,South,2023-06-14,Silver
+CUST00432,55,Male,Ahmedabad,Gujarat,West,2023-11-01,Bronze
+CUST00433,70,Male,Ahmedabad,Gujarat,West,2024-05-11,Bronze
+CUST00434,53,Female,Bengaluru,Karnataka,South,2024-09-23,Platinum
+CUST00435,57,Male,Ahmedabad,Gujarat,West,2024-07-09,Bronze
+CUST00436,34,Female,Delhi,Delhi,North,2025-04-03,Bronze
+CUST00437,47,Female,Chandigarh,Chandigarh,North,2023-06-05,Bronze
+CUST00438,26,Male,Pune,Maharashtra,West,2024-01-02,Bronze
+CUST00439,50,Female,Hyderabad,Telangana,South,2024-12-19,Bronze
+CUST00440,69,Male,Chandigarh,Chandigarh,North,2025-06-20,Gold
+CUST00441,42,Male,Lucknow,Uttar Pradesh,North,2024-09-11,Bronze
+CUST00442,31,Female,Mumbai,Maharashtra,West,2023-09-08,Silver
+CUST00443,28,Male,Delhi,Delhi,North,2025-08-14,Bronze
+CUST00444,70,Other,Hyderabad,Telangana,South,2025-07-04,Bronze
+CUST00445,52,Female,Chandigarh,Chandigarh,North,2025-05-31,Gold
+CUST00446,58,Male,Mumbai,Maharashtra,West,2023-11-30,Bronze
+CUST00447,31,Male,Bengaluru,Karnataka,South,2024-10-03,Gold
+CUST00448,47,Male,Delhi,Delhi,North,2025-08-26,Silver
+CUST00449,58,Male,Delhi,Delhi,North,2024-05-25,Bronze
+CUST00450,21,Male,Bengaluru,Karnataka,South,2023-10-20,Platinum
+CUST00451,21,Male,Pune,Maharashtra,West,2023-01-20,Bronze
+CUST00452,45,Male,Bengaluru,Karnataka,South,2023-10-09,Gold
+CUST00453,25,Female,Delhi,Delhi,North,2025-03-07,Bronze
+CUST00454,19,Female,Delhi,Delhi,North,2023-01-01,Gold
+CUST00455,58,Female,Chandigarh,Chandigarh,North,2023-04-29,Bronze
+CUST00456,63,Male,Ahmedabad,Gujarat,West,2023-02-04,Silver
+CUST00457,39,Male,Mumbai,Maharashtra,West,2023-07-17,Gold
+CUST00458,58,Female,Bengaluru,Karnataka,South,2024-04-29,Platinum
+CUST00459,33,Male,Mumbai,Maharashtra,West,2025-01-26,Gold
+CUST00460,46,Male,Bengaluru,Karnataka,South,2023-02-28,Gold
+CUST00461,66,Female,Lucknow,Uttar Pradesh,North,2025-04-16,Gold
+CUST00462,65,Female,Delhi,Delhi,North,2023-06-10,Bronze
+CUST00463,47,Female,Ahmedabad,Gujarat,West,2024-11-21,Bronze
+CUST00464,29,Male,Chandigarh,Chandigarh,North,2023-07-25,Bronze
+CUST00465,52,Female,Ahmedabad,Gujarat,West,2023-01-12,Bronze
+CUST00466,28,Female,Ahmedabad,Gujarat,West,2024-05-04,Bronze
+CUST00467,63,Female,Ahmedabad,Gujarat,West,2023-10-03,Silver
+CUST00468,67,Female,Mumbai,Maharashtra,West,2024-11-23,Bronze
+CUST00469,38,Female,Bengaluru,Karnataka,South,2023-08-30,Silver
+CUST00470,38,Female,Kolkata,West Bengal,East,2023-08-04,Bronze
+CUST00471,22,Male,Lucknow,Uttar Pradesh,North,2023-09-08,Bronze
+CUST00472,65,Female,Hyderabad,Telangana,South,2025-03-21,Silver
+CUST00473,37,Female,Ahmedabad,Gujarat,West,2023-05-06,Gold
+CUST00474,54,Female,Pune,Maharashtra,West,2025-09-20,Gold
+CUST00475,20,Male,Mumbai,Maharashtra,West,2023-08-05,Silver
+CUST00476,61,Male,Chandigarh,Chandigarh,North,2023-11-02,Bronze
+CUST00477,50,Female,Hyderabad,Telangana,South,2025-03-07,Silver
+CUST00478,70,Female,Kolkata,West Bengal,East,2023-07-04,Bronze
+CUST00479,26,Female,Pune,Maharashtra,West,2023-02-08,Bronze
+CUST00480,26,Female,Kolkata,West Bengal,East,2023-08-11,Bronze
+CUST00481,21,Female,Hyderabad,Telangana,South,2023-07-03,Bronze
+CUST00482,52,Female,Ahmedabad,Gujarat,West,2024-05-09,Bronze
+CUST00483,34,Female,Pune,Maharashtra,West,2024-03-02,Platinum
+CUST00484,51,Female,Kolkata,West Bengal,East,2023-06-27,Platinum
+CUST00485,41,Female,Chandigarh,Chandigarh,North,2025-07-07,Bronze
+CUST00486,49,Male,Bengaluru,Karnataka,South,2024-03-03,Bronze
+CUST00487,18,Male,Delhi,Delhi,North,2023-10-21,Bronze
+CUST00488,25,Female,Bengaluru,Karnataka,South,2025-05-01,Bronze
+CUST00489,62,Male,Hyderabad,Telangana,South,2023-05-31,Platinum
+CUST00490,40,Male,Mumbai,Maharashtra,West,2024-01-19,Bronze
+CUST00491,64,Male,Delhi,Delhi,North,2024-09-29,Gold
+CUST00492,57,Male,Lucknow,Uttar Pradesh,North,2025-03-23,Bronze
+CUST00493,29,Male,Chandigarh,Chandigarh,North,2023-11-04,Platinum
+CUST00494,29,Male,Lucknow,Uttar Pradesh,North,2023-12-02,Bronze
+CUST00495,63,Female,Pune,Maharashtra,West,2025-08-03,Gold
+CUST00496,64,Female,Delhi,Delhi,North,2025-01-15,Bronze
+CUST00497,32,Male,Lucknow,Uttar Pradesh,North,2025-06-10,Silver
+CUST00498,58,Male,Lucknow,Uttar Pradesh,North,2024-01-10,Bronze
+CUST00499,36,Female,Kolkata,West Bengal,East,2023-01-08,Bronze
+CUST00500,43,Male,Bengaluru,Karnataka,South,2023-12-07,Platinum
+CUST00501,69,Female,Kolkata,West Bengal,East,2023-05-09,Gold
+CUST00502,46,Female,Delhi,Delhi,North,2025-02-14,Gold
+CUST00503,39,Female,Delhi,Delhi,North,2024-10-30,Silver
+CUST00504,57,Male,Hyderabad,Telangana,South,2023-12-18,Gold
+CUST00505,38,Female,Kolkata,West Bengal,East,2023-12-24,Bronze
+CUST00506,68,Male,Jaipur,Rajasthan,North,2024-05-31,Bronze
+CUST00507,55,Female,Bengaluru,Karnataka,South,2024-05-09,Bronze
+CUST00508,37,Female,Delhi,Delhi,North,2023-03-27,Silver
+CUST00509,46,Male,Hyderabad,Telangana,South,2023-06-24,Bronze
+CUST00510,68,Male,Kolkata,West Bengal,East,2025-03-12,Bronze
+CUST00511,21,Male,Bengaluru,Karnataka,South,2023-07-12,Silver
+CUST00512,24,Female,Kolkata,West Bengal,East,2023-11-07,Gold
+CUST00513,45,Male,Lucknow,Uttar Pradesh,North,2023-04-29,Bronze
+CUST00514,45,Female,Hyderabad,Telangana,South,2023-08-06,Bronze
+CUST00515,21,Male,Bengaluru,Karnataka,South,2024-03-02,Bronze
+CUST00516,39,Female,Ahmedabad,Gujarat,West,2025-08-27,Bronze
+CUST00517,29,Female,Pune,Maharashtra,West,2024-02-18,Bronze
+CUST00518,62,Female,Pune,Maharashtra,West,2023-04-24,Silver
+CUST00519,20,Female,Bengaluru,Karnataka,South,2025-09-04,Silver
+CUST00520,39,Male,Kolkata,West Bengal,East,2023-05-25,Silver
+CUST00521,61,Male,Hyderabad,Telangana,South,2024-06-21,Bronze
+CUST00522,19,Female,Pune,Maharashtra,West,2024-10-09,Gold
+CUST00523,41,Male,Hyderabad,Telangana,South,2023-10-30,Bronze
+CUST00524,51,Male,Pune,Maharashtra,West,2025-01-13,Silver
+CUST00525,44,Male,Lucknow,Uttar Pradesh,North,2025-05-30,Gold
+CUST00526,58,Male,Kolkata,West Bengal,East,2024-08-10,Bronze
+CUST00527,18,Male,Lucknow,Uttar Pradesh,North,2025-09-13,Bronze
+CUST00528,25,Female,Pune,Maharashtra,West,2025-04-19,Gold
+CUST00529,40,Male,Ahmedabad,Gujarat,West,2023-12-11,Bronze
+CUST00530,55,Female,Ahmedabad,Gujarat,West,2025-03-24,Silver
+CUST00531,23,Male,Lucknow,Uttar Pradesh,North,2025-08-21,Bronze
+CUST00532,39,Female,Ahmedabad,Gujarat,West,2025-03-11,Silver
+CUST00533,42,Male,Pune,Maharashtra,West,2023-01-01,Bronze
+CUST00534,35,Female,Bengaluru,Karnataka,South,2023-05-27,Bronze
+CUST00535,34,Female,Lucknow,Uttar Pradesh,North,2023-10-14,Silver
+CUST00536,29,Male,Mumbai,Maharashtra,West,2025-09-02,Bronze
+CUST00537,23,Female,Kolkata,West Bengal,East,2024-10-15,Bronze
+CUST00538,43,Other,Ahmedabad,Gujarat,West,2023-02-22,Bronze
+CUST00539,44,Female,Ahmedabad,Gujarat,West,2023-10-31,Bronze
+CUST00540,25,Female,Delhi,Delhi,North,2023-03-10,Bronze
+CUST00541,36,Male,Jaipur,Rajasthan,North,2023-12-27,Bronze
+CUST00542,59,Female,Lucknow,Uttar Pradesh,North,2024-08-24,Gold
+CUST00543,18,Male,Chandigarh,Chandigarh,North,2025-08-15,Bronze
+CUST00544,46,Male,Ahmedabad,Gujarat,West,2023-08-08,Silver
+CUST00545,62,Other,Kolkata,West Bengal,East,2025-08-19,Bronze
+CUST00546,66,Male,Mumbai,Maharashtra,West,2024-12-04,Bronze
+CUST00547,52,Female,Ahmedabad,Gujarat,West,2025-08-23,Platinum
+CUST00548,57,Female,Mumbai,Maharashtra,West,2024-07-28,Bronze
+CUST00549,31,Female,Pune,Maharashtra,West,2024-08-07,Platinum
+CUST00550,52,Other,Pune,Maharashtra,West,2023-06-10,Bronze
+CUST00551,65,Male,Jaipur,Rajasthan,North,2024-11-11,Gold
+CUST00552,62,Male,Bengaluru,Karnataka,South,2023-03-30,Silver
+CUST00553,37,Male,Chandigarh,Chandigarh,North,2024-11-18,Gold
+CUST00554,66,Male,Delhi,Delhi,North,2025-02-19,Silver
+CUST00555,30,Male,Jaipur,Rajasthan,North,2024-08-07,Silver
+CUST00556,55,Male,Hyderabad,Telangana,South,2025-01-26,Bronze
+CUST00557,66,Female,Delhi,Delhi,North,2024-08-11,Bronze
+CUST00558,63,Female,Lucknow,Uttar Pradesh,North,2023-06-08,Gold
+CUST00559,66,Male,Kolkata,West Bengal,East,2024-05-03,Bronze
+CUST00560,25,Female,Hyderabad,Telangana,South,2025-08-28,Bronze
+CUST00561,60,Male,Hyderabad,Telangana,South,2023-11-20,Gold
+CUST00562,37,Male,Jaipur,Rajasthan,North,2024-09-01,Bronze
+CUST00563,50,Female,Bengaluru,Karnataka,South,2024-01-16,Platinum
+CUST00564,43,Female,Jaipur,Rajasthan,North,2023-04-12,Gold
+CUST00565,56,Female,Lucknow,Uttar Pradesh,North,2024-05-08,Silver
+CUST00566,38,Male,Ahmedabad,Gujarat,West,2024-10-05,Gold
+CUST00567,70,Female,Ahmedabad,Gujarat,West,2024-09-05,Bronze
+CUST00568,66,Female,Bengaluru,Karnataka,South,2023-01-19,Bronze
+CUST00569,59,Female,Lucknow,Uttar Pradesh,North,2024-03-29,Silver
+CUST00570,60,Female,Bengaluru,Karnataka,South,2024-04-26,Bronze
+CUST00571,58,Female,Mumbai,Maharashtra,West,2024-08-16,Gold
+CUST00572,26,Female,Ahmedabad,Gujarat,West,2024-02-01,Gold
+CUST00573,41,Female,Hyderabad,Telangana,South,2023-10-06,Silver
+CUST00574,54,Other,Chandigarh,Chandigarh,North,2025-04-30,Bronze
+CUST00575,66,Female,Kolkata,West Bengal,East,2023-12-31,Platinum
+CUST00576,58,Male,Lucknow,Uttar Pradesh,North,2023-11-27,Silver
+CUST00577,34,Female,Delhi,Delhi,North,2024-10-02,Silver
+CUST00578,41,Male,Bengaluru,Karnataka,South,2023-12-10,Bronze
+CUST00579,38,Male,Kolkata,West Bengal,East,2025-04-01,Gold
+CUST00580,68,Female,Delhi,Delhi,North,2024-03-30,Silver
+CUST00581,56,Female,Kolkata,West Bengal,East,2024-08-23,Gold
+CUST00582,58,Female,Chandigarh,Chandigarh,North,2024-12-25,Gold
+CUST00583,56,Male,Delhi,Delhi,North,2024-10-16,Bronze
+CUST00584,30,Female,Jaipur,Rajasthan,North,2023-03-06,Silver
+CUST00585,28,Male,Pune,Maharashtra,West,2023-03-17,Gold
+CUST00586,63,Other,Jaipur,Rajasthan,North,2024-12-11,Bronze
+CUST00587,36,Other,Ahmedabad,Gujarat,West,2023-05-23,Gold
+CUST00588,28,Female,Pune,Maharashtra,West,2025-07-05,Platinum
+CUST00589,30,Female,Jaipur,Rajasthan,North,2025-07-03,Silver
+CUST00590,63,Female,Pune,Maharashtra,West,2025-04-07,Gold
+CUST00591,62,Female,Pune,Maharashtra,West,2024-08-27,Gold
+CUST00592,18,Male,Hyderabad,Telangana,South,2024-04-17,Gold
+CUST00593,57,Male,Bengaluru,Karnataka,South,2024-02-21,Bronze
+CUST00594,61,Female,Bengaluru,Karnataka,South,2023-11-01,Bronze
+CUST00595,36,Female,Hyderabad,Telangana,South,2025-01-05,Bronze
+CUST00596,29,Male,Kolkata,West Bengal,East,2024-05-11,Silver
+CUST00597,25,Female,Mumbai,Maharashtra,West,2023-10-18,Silver
+CUST00598,25,Male,Kolkata,West Bengal,East,2025-07-28,Gold
+CUST00599,70,Female,Delhi,Delhi,North,2023-04-12,Bronze
+CUST00600,62,Female,Delhi,Delhi,North,2025-09-12,Silver
+CUST00601,29,Female,Pune,Maharashtra,West,2023-09-24,Bronze
+CUST00602,65,Female,Jaipur,Rajasthan,North,2025-05-16,Gold
+CUST00603,50,Male,Jaipur,Rajasthan,North,2025-08-25,Silver
+CUST00604,62,Male,Bengaluru,Karnataka,South,2024-09-13,Bronze
+CUST00605,43,Female,Lucknow,Uttar Pradesh,North,2025-08-31,Bronze
+CUST00606,56,Female,Kolkata,West Bengal,East,2025-04-21,Gold
+CUST00607,45,Male,Ahmedabad,Gujarat,West,2025-08-19,Silver
+CUST00608,22,Female,Chandigarh,Chandigarh,North,2025-07-30,Bronze
+CUST00609,25,Male,Jaipur,Rajasthan,North,2025-02-15,Platinum
+CUST00610,42,Female,Chandigarh,Chandigarh,North,2023-01-03,Silver
+CUST00611,44,Female,Pune,Maharashtra,West,2023-03-26,Platinum
+CUST00612,63,Male,Chandigarh,Chandigarh,North,2025-03-04,Silver
+CUST00613,40,Male,Ahmedabad,Gujarat,West,2023-11-24,Silver
+CUST00614,47,Female,Hyderabad,Telangana,South,2025-03-26,Gold
+CUST00615,62,Female,Ahmedabad,Gujarat,West,2024-03-25,Silver
+CUST00616,64,Female,Chandigarh,Chandigarh,North,2024-03-29,Silver
+CUST00617,40,Female,Ahmedabad,Gujarat,West,2025-07-12,Bronze
+CUST00618,66,Female,Mumbai,Maharashtra,West,2024-09-20,Silver
+CUST00619,64,Female,Pune,Maharashtra,West,2023-08-09,Bronze
+CUST00620,37,Female,Kolkata,West Bengal,East,2023-06-03,Bronze
+CUST00621,35,Male,Hyderabad,Telangana,South,2024-10-26,Bronze
+CUST00622,35,Male,Jaipur,Rajasthan,North,2023-01-12,Bronze
+CUST00623,19,Male,Delhi,Delhi,North,2023-05-13,Platinum
+CUST00624,21,Female,Kolkata,West Bengal,East,2025-09-20,Bronze
+CUST00625,47,Male,Delhi,Delhi,North,2023-10-31,Silver
+CUST00626,50,Female,Pune,Maharashtra,West,2023-10-20,Gold
+CUST00627,53,Female,Hyderabad,Telangana,South,2025-09-01,Silver
+CUST00628,35,Female,Bengaluru,Karnataka,South,2023-10-27,Bronze
+CUST00629,54,Male,Jaipur,Rajasthan,North,2025-01-09,Gold
+CUST00630,36,Male,Mumbai,Maharashtra,West,2025-02-21,Silver
+CUST00631,64,Male,Bengaluru,Karnataka,South,2023-02-12,Gold
+CUST00632,45,Male,Pune,Maharashtra,West,2025-08-01,Gold
+CUST00633,57,Male,Kolkata,West Bengal,East,2023-12-09,Platinum
+CUST00634,37,Female,Mumbai,Maharashtra,West,2023-11-22,Silver
+CUST00635,66,Female,Ahmedabad,Gujarat,West,2025-03-24,Bronze
+CUST00636,50,Female,Chandigarh,Chandigarh,North,2024-05-12,Silver
+CUST00637,29,Female,Mumbai,Maharashtra,West,2023-12-30,Bronze
+CUST00638,68,Male,Pune,Maharashtra,West,2025-06-09,Gold
+CUST00639,32,Female,Lucknow,Uttar Pradesh,North,2024-03-02,Bronze
+CUST00640,58,Female,Chandigarh,Chandigarh,North,2023-01-21,Bronze
+CUST00641,56,Male,Delhi,Delhi,North,2024-02-11,Gold
+CUST00642,19,Female,Jaipur,Rajasthan,North,2024-09-10,Silver
+CUST00643,46,Male,Delhi,Delhi,North,2023-12-02,Bronze
+CUST00644,58,Female,Mumbai,Maharashtra,West,2025-03-25,Silver
+CUST00645,27,Other,Delhi,Delhi,North,2023-04-27,Gold
+CUST00646,19,Male,Pune,Maharashtra,West,2023-05-04,Bronze
+CUST00647,68,Female,Ahmedabad,Gujarat,West,2024-02-03,Gold
+CUST00648,28,Female,Kolkata,West Bengal,East,2025-03-03,Bronze
+CUST00649,30,Female,Jaipur,Rajasthan,North,2025-03-14,Gold
+CUST00650,27,Male,Delhi,Delhi,North,2024-12-15,Gold
+CUST00651,31,Female,Delhi,Delhi,North,2023-02-20,Bronze
+CUST00652,35,Male,Mumbai,Maharashtra,West,2025-02-21,Silver
+CUST00653,68,Male,Kolkata,West Bengal,East,2023-11-20,Bronze
+CUST00654,26,Male,Bengaluru,Karnataka,South,2025-02-27,Silver
+CUST00655,56,Female,Delhi,Delhi,North,2023-05-21,Silver
+CUST00656,45,Female,Pune,Maharashtra,West,2024-04-14,Silver
+CUST00657,20,Female,Lucknow,Uttar Pradesh,North,2025-02-25,Bronze
+CUST00658,37,Female,Jaipur,Rajasthan,North,2025-03-12,Bronze
+CUST00659,23,Male,Delhi,Delhi,North,2023-11-30,Bronze
+CUST00660,44,Male,Pune,Maharashtra,West,2025-06-11,Bronze
+CUST00661,70,Male,Pune,Maharashtra,West,2025-08-21,Silver
+CUST00662,19,Male,Jaipur,Rajasthan,North,2024-01-08,Gold
+CUST00663,46,Male,Bengaluru,Karnataka,South,2024-07-17,Silver
+CUST00664,55,Male,Pune,Maharashtra,West,2024-05-08,Silver
+CUST00665,20,Male,Lucknow,Uttar Pradesh,North,2024-06-22,Platinum
+CUST00666,33,Male,Pune,Maharashtra,West,2024-10-30,Silver
+CUST00667,47,Male,Pune,Maharashtra,West,2025-01-20,Platinum
+CUST00668,57,Male,Pune,Maharashtra,West,2023-06-05,Silver
+CUST00669,19,Female,Ahmedabad,Gujarat,West,2023-10-18,Bronze
+CUST00670,34,Female,Ahmedabad,Gujarat,West,2024-10-09,Bronze
+CUST00671,58,Female,Bengaluru,Karnataka,South,2023-05-24,Gold
+CUST00672,29,Male,Delhi,Delhi,North,2023-04-16,Bronze
+CUST00673,52,Male,Pune,Maharashtra,West,2024-02-24,Bronze
+CUST00674,60,Female,Kolkata,West Bengal,East,2024-10-31,Silver
+CUST00675,18,Male,Delhi,Delhi,North,2024-10-19,Silver
+CUST00676,62,Male,Bengaluru,Karnataka,South,2023-01-02,Silver
+CUST00677,32,Male,Hyderabad,Telangana,South,2025-08-02,Bronze
+CUST00678,43,Male,Delhi,Delhi,North,2024-08-11,Bronze
+CUST00679,54,Male,Delhi,Delhi,North,2024-10-05,Silver
+CUST00680,38,Male,Chandigarh,Chandigarh,North,2023-03-31,Platinum
+CUST00681,66,Female,Mumbai,Maharashtra,West,2023-12-11,Gold
+CUST00682,48,Male,Chandigarh,Chandigarh,North,2023-12-16,Platinum
+CUST00683,42,Male,Lucknow,Uttar Pradesh,North,2024-04-03,Gold
+CUST00684,40,Female,Ahmedabad,Gujarat,West,2023-09-20,Silver
+CUST00685,41,Male,Ahmedabad,Gujarat,West,2023-12-17,Bronze
+CUST00686,55,Male,Mumbai,Maharashtra,West,2023-04-18,Silver
+CUST00687,45,Female,Jaipur,Rajasthan,North,2024-08-08,Silver
+CUST00688,38,Male,Jaipur,Rajasthan,North,2023-02-08,Silver
+CUST00689,60,Male,Bengaluru,Karnataka,South,2025-06-27,Silver
+CUST00690,35,Male,Mumbai,Maharashtra,West,2023-06-08,Silver
+CUST00691,53,Male,Delhi,Delhi,North,2024-08-05,Bronze
+CUST00692,52,Female,Jaipur,Rajasthan,North,2025-08-16,Silver
+CUST00693,62,Female,Pune,Maharashtra,West,2023-11-08,Bronze
+CUST00694,26,Male,Kolkata,West Bengal,East,2023-08-29,Gold
+CUST00695,70,Female,Delhi,Delhi,North,2025-07-26,Bronze
+CUST00696,55,Female,Lucknow,Uttar Pradesh,North,2024-03-20,Bronze
+CUST00697,47,Male,Pune,Maharashtra,West,2023-10-25,Silver
+CUST00698,61,Female,Pune,Maharashtra,West,2025-08-09,Silver
+CUST00699,51,Male,Mumbai,Maharashtra,West,2023-02-05,Silver
+CUST00700,49,Male,Bengaluru,Karnataka,South,2023-03-25,Bronze
+CUST00701,20,Male,Lucknow,Uttar Pradesh,North,2024-03-27,Silver
+CUST00702,20,Male,Jaipur,Rajasthan,North,2025-06-04,Bronze
+CUST00703,45,Male,Mumbai,Maharashtra,West,2025-02-13,Platinum
+CUST00704,61,Female,Jaipur,Rajasthan,North,2025-04-01,Platinum
+CUST00705,32,Male,Mumbai,Maharashtra,West,2024-01-20,Silver
+CUST00706,58,Male,Mumbai,Maharashtra,West,2023-06-21,Bronze
+CUST00707,40,Male,Mumbai,Maharashtra,West,2024-01-11,Gold
+CUST00708,57,Female,Bengaluru,Karnataka,South,2024-11-15,Bronze
+CUST00709,28,Female,Mumbai,Maharashtra,West,2023-12-28,Silver
+CUST00710,65,Female,Hyderabad,Telangana,South,2024-07-12,Bronze
+CUST00711,49,Female,Kolkata,West Bengal,East,2025-06-09,Platinum
+CUST00712,53,Female,Jaipur,Rajasthan,North,2023-05-21,Bronze
+CUST00713,50,Male,Delhi,Delhi,North,2025-06-05,Silver
+CUST00714,41,Female,Chandigarh,Chandigarh,North,2025-07-06,Gold
+CUST00715,56,Female,Lucknow,Uttar Pradesh,North,2023-04-28,Silver
+CUST00716,51,Other,Ahmedabad,Gujarat,West,2023-10-04,Bronze
+CUST00717,45,Female,Bengaluru,Karnataka,South,2024-12-26,Platinum
+CUST00718,54,Male,Delhi,Delhi,North,2023-08-08,Silver
+CUST00719,24,Male,Pune,Maharashtra,West,2025-06-23,Silver
+CUST00720,21,Male,Hyderabad,Telangana,South,2023-01-26,Bronze
+CUST00721,54,Female,Ahmedabad,Gujarat,West,2024-06-04,Silver
+CUST00722,18,Female,Chandigarh,Chandigarh,North,2025-02-21,Silver
+CUST00723,18,Male,Delhi,Delhi,North,2023-01-10,Bronze
+CUST00724,64,Female,Ahmedabad,Gujarat,West,2025-09-10,Bronze
+CUST00725,37,Male,Delhi,Delhi,North,2024-01-13,Gold
+CUST00726,36,Female,Hyderabad,Telangana,South,2024-09-24,Bronze
+CUST00727,46,Male,Chandigarh,Chandigarh,North,2024-09-28,Bronze
+CUST00728,27,Male,Pune,Maharashtra,West,2024-11-12,Silver
+CUST00729,35,Male,Mumbai,Maharashtra,West,2024-08-06,Gold
+CUST00730,45,Female,Jaipur,Rajasthan,North,2023-06-01,Bronze
+CUST00731,52,Male,Pune,Maharashtra,West,2024-12-20,Silver
+CUST00732,60,Male,Mumbai,Maharashtra,West,2023-02-18,Bronze
+CUST00733,64,Female,Bengaluru,Karnataka,South,2023-06-03,Bronze
+CUST00734,48,Male,Kolkata,West Bengal,East,2025-05-08,Bronze
+CUST00735,44,Female,Lucknow,Uttar Pradesh,North,2023-10-20,Gold
+CUST00736,28,Female,Lucknow,Uttar Pradesh,North,2024-08-02,Bronze
+CUST00737,66,Male,Jaipur,Rajasthan,North,2023-02-19,Bronze
+CUST00738,66,Female,Chandigarh,Chandigarh,North,2024-10-25,Silver
+CUST00739,55,Male,Hyderabad,Telangana,South,2024-06-14,Gold
+CUST00740,22,Female,Chandigarh,Chandigarh,North,2024-09-03,Bronze
+CUST00741,25,Male,Hyderabad,Telangana,South,2023-03-01,Silver
+CUST00742,51,Female,Chandigarh,Chandigarh,North,2023-06-16,Bronze
+CUST00743,65,Male,Kolkata,West Bengal,East,2023-07-21,Silver
+CUST00744,69,Female,Bengaluru,Karnataka,South,2025-05-06,Silver
+CUST00745,29,Male,Bengaluru,Karnataka,South,2023-05-26,Silver
+CUST00746,55,Male,Mumbai,Maharashtra,West,2025-07-03,Bronze
+CUST00747,18,Male,Ahmedabad,Gujarat,West,2024-11-06,Bronze
+CUST00748,48,Male,Bengaluru,Karnataka,South,2025-08-27,Bronze
+CUST00749,21,Female,Bengaluru,Karnataka,South,2025-09-19,Bronze
+CUST00750,66,Male,Pune,Maharashtra,West,2024-03-14,Bronze
+CUST00751,62,Female,Pune,Maharashtra,West,2023-08-30,Gold
+CUST00752,67,Female,Mumbai,Maharashtra,West,2024-08-03,Platinum
+CUST00753,22,Female,Ahmedabad,Gujarat,West,2024-11-17,Platinum
+CUST00754,47,Male,Jaipur,Rajasthan,North,2024-07-14,Gold
+CUST00755,41,Male,Pune,Maharashtra,West,2024-04-27,Silver
+CUST00756,20,Female,Jaipur,Rajasthan,North,2023-04-18,Silver
+CUST00757,28,Male,Delhi,Delhi,North,2023-08-14,Bronze
+CUST00758,62,Male,Pune,Maharashtra,West,2024-11-03,Silver
+CUST00759,21,Female,Kolkata,West Bengal,East,2024-09-22,Silver
+CUST00760,43,Female,Ahmedabad,Gujarat,West,2024-10-22,Silver
+CUST00761,44,Female,Mumbai,Maharashtra,West,2025-09-03,Gold
+CUST00762,63,Male,Delhi,Delhi,North,2024-10-23,Bronze
+CUST00763,60,Female,Ahmedabad,Gujarat,West,2024-03-07,Bronze
+CUST00764,44,Male,Kolkata,West Bengal,East,2025-03-15,Platinum
+CUST00765,59,Male,Ahmedabad,Gujarat,West,2024-10-16,Bronze
+CUST00766,68,Female,Kolkata,West Bengal,East,2024-02-23,Silver
+CUST00767,67,Male,Kolkata,West Bengal,East,2025-09-14,Gold
+CUST00768,23,Male,Jaipur,Rajasthan,North,2024-03-30,Silver
+CUST00769,32,Male,Chandigarh,Chandigarh,North,2023-06-09,Silver
+CUST00770,70,Female,Delhi,Delhi,North,2024-06-06,Bronze
+CUST00771,47,Female,Ahmedabad,Gujarat,West,2024-10-11,Bronze
+CUST00772,59,Female,Hyderabad,Telangana,South,2025-08-26,Gold
+CUST00773,54,Female,Delhi,Delhi,North,2024-08-12,Silver
+CUST00774,54,Male,Chandigarh,Chandigarh,North,2023-03-18,Silver
+CUST00775,59,Male,Delhi,Delhi,North,2024-05-23,Bronze
+CUST00776,54,Male,Bengaluru,Karnataka,South,2024-03-16,Bronze
+CUST00777,52,Male,Hyderabad,Telangana,South,2023-09-11,Platinum
+CUST00778,40,Male,Chandigarh,Chandigarh,North,2025-07-09,Bronze
+CUST00779,23,Female,Jaipur,Rajasthan,North,2025-02-08,Silver
+CUST00780,21,Male,Ahmedabad,Gujarat,West,2023-11-16,Bronze
+CUST00781,35,Male,Lucknow,Uttar Pradesh,North,2025-03-13,Silver
+CUST00782,26,Male,Chandigarh,Chandigarh,North,2023-09-20,Platinum
+CUST00783,66,Male,Mumbai,Maharashtra,West,2024-08-19,Silver
+CUST00784,46,Female,Ahmedabad,Gujarat,West,2024-10-19,Bronze
+CUST00785,30,Male,Chandigarh,Chandigarh,North,2025-04-14,Silver
+CUST00786,64,Male,Bengaluru,Karnataka,South,2024-07-07,Gold
+CUST00787,69,Female,Lucknow,Uttar Pradesh,North,2024-01-09,Bronze
+CUST00788,34,Male,Bengaluru,Karnataka,South,2024-09-28,Gold
+CUST00789,62,Male,Lucknow,Uttar Pradesh,North,2023-06-16,Silver
+CUST00790,49,Male,Mumbai,Maharashtra,West,2025-07-25,Gold
+CUST00791,65,Female,Ahmedabad,Gujarat,West,2025-01-22,Silver
+CUST00792,39,Other,Jaipur,Rajasthan,North,2024-04-03,Bronze
+CUST00793,21,Female,Bengaluru,Karnataka,South,2025-09-25,Bronze
+CUST00794,22,Male,Bengaluru,Karnataka,South,2023-10-07,Bronze
+CUST00795,54,Female,Kolkata,West Bengal,East,2024-11-30,Gold
+CUST00796,58,Male,Lucknow,Uttar Pradesh,North,2023-10-29,Gold
+CUST00797,66,Male,Pune,Maharashtra,West,2024-06-14,Silver
+CUST00798,30,Male,Ahmedabad,Gujarat,West,2024-08-02,Bronze
+CUST00799,51,Male,Lucknow,Uttar Pradesh,North,2023-08-06,Bronze
+CUST00800,62,Female,Kolkata,West Bengal,East,2023-04-12,Gold
+CUST00801,39,Female,Delhi,Delhi,North,2024-07-07,Silver
+CUST00802,70,Female,Lucknow,Uttar Pradesh,North,2023-10-15,Bronze
+CUST00803,40,Female,Jaipur,Rajasthan,North,2023-06-16,Silver
+CUST00804,68,Female,Ahmedabad,Gujarat,West,2024-09-12,Bronze
+CUST00805,20,Male,Kolkata,West Bengal,East,2023-02-05,Bronze
+CUST00806,59,Male,Delhi,Delhi,North,2025-01-13,Silver
+CUST00807,51,Female,Hyderabad,Telangana,South,2025-01-10,Bronze
+CUST00808,49,Male,Kolkata,West Bengal,East,2023-12-19,Platinum
+CUST00809,62,Female,Hyderabad,Telangana,South,2024-11-06,Bronze
+CUST00810,68,Male,Ahmedabad,Gujarat,West,2025-06-17,Bronze
+CUST00811,66,Male,Bengaluru,Karnataka,South,2023-03-14,Bronze
+CUST00812,38,Male,Kolkata,West Bengal,East,2024-10-09,Gold
+CUST00813,63,Male,Mumbai,Maharashtra,West,2023-12-19,Silver
+CUST00814,61,Male,Hyderabad,Telangana,South,2025-06-09,Silver
+CUST00815,38,Female,Jaipur,Rajasthan,North,2023-03-11,Bronze
+CUST00816,61,Male,Mumbai,Maharashtra,West,2024-02-29,Bronze
+CUST00817,28,Female,Chandigarh,Chandigarh,North,2025-09-25,Silver
+CUST00818,56,Male,Chandigarh,Chandigarh,North,2024-12-08,Gold
+CUST00819,21,Male,Delhi,Delhi,North,2025-02-19,Gold
+CUST00820,68,Male,Bengaluru,Karnataka,South,2024-07-14,Bronze
+CUST00821,18,Female,Ahmedabad,Gujarat,West,2025-04-07,Silver
+CUST00822,45,Male,Kolkata,West Bengal,East,2024-10-03,Gold
+CUST00823,41,Female,Pune,Maharashtra,West,2025-08-13,Bronze
+CUST00824,52,Male,Jaipur,Rajasthan,North,2024-05-31,Gold
+CUST00825,30,Female,Hyderabad,Telangana,South,2024-03-03,Bronze
+CUST00826,64,Male,Ahmedabad,Gujarat,West,2024-06-22,Platinum
+CUST00827,51,Female,Mumbai,Maharashtra,West,2023-06-09,Gold
+CUST00828,28,Female,Chandigarh,Chandigarh,North,2023-05-29,Platinum
+CUST00829,53,Female,Jaipur,Rajasthan,North,2025-02-14,Silver
+CUST00830,68,Male,Pune,Maharashtra,West,2023-08-18,Bronze
+CUST00831,34,Male,Kolkata,West Bengal,East,2024-12-12,Platinum
+CUST00832,52,Male,Delhi,Delhi,North,2024-07-15,Bronze
+CUST00833,35,Female,Pune,Maharashtra,West,2023-03-08,Bronze
+CUST00834,57,Female,Jaipur,Rajasthan,North,2025-03-22,Silver
+CUST00835,39,Female,Pune,Maharashtra,West,2024-01-16,Gold
+CUST00836,41,Male,Jaipur,Rajasthan,North,2023-02-27,Platinum
+CUST00837,36,Male,Jaipur,Rajasthan,North,2023-09-16,Bronze
+CUST00838,54,Male,Lucknow,Uttar Pradesh,North,2023-12-08,Gold
+CUST00839,56,Female,Hyderabad,Telangana,South,2025-04-17,Gold
+CUST00840,38,Female,Chandigarh,Chandigarh,North,2023-05-10,Bronze
+CUST00841,25,Female,Lucknow,Uttar Pradesh,North,2024-12-27,Bronze
+CUST00842,45,Male,Kolkata,West Bengal,East,2023-06-21,Bronze
+CUST00843,22,Female,Lucknow,Uttar Pradesh,North,2025-02-08,Bronze
+CUST00844,34,Female,Bengaluru,Karnataka,South,2024-09-05,Platinum
+CUST00845,54,Male,Bengaluru,Karnataka,South,2023-07-28,Silver
+CUST00846,53,Female,Chandigarh,Chandigarh,North,2025-03-13,Silver
+CUST00847,36,Female,Pune,Maharashtra,West,2023-12-20,Platinum
+CUST00848,44,Female,Hyderabad,Telangana,South,2024-04-15,Bronze
+CUST00849,70,Female,Chandigarh,Chandigarh,North,2025-03-08,Gold
+CUST00850,51,Male,Jaipur,Rajasthan,North,2023-04-26,Silver
+CUST00851,28,Male,Mumbai,Maharashtra,West,2023-09-21,Gold
+CUST00852,62,Female,Hyderabad,Telangana,South,2024-10-23,Bronze
+CUST00853,64,Male,Hyderabad,Telangana,South,2025-03-22,Platinum
+CUST00854,29,Female,Jaipur,Rajasthan,North,2024-03-17,Bronze
+CUST00855,38,Female,Jaipur,Rajasthan,North,2024-07-01,Bronze
+CUST00856,28,Female,Delhi,Delhi,North,2024-03-28,Gold
+CUST00857,56,Other,Chandigarh,Chandigarh,North,2025-04-24,Bronze
+CUST00858,45,Male,Jaipur,Rajasthan,North,2024-04-21,Silver
+CUST00859,22,Male,Bengaluru,Karnataka,South,2023-10-14,Silver
+CUST00860,34,Male,Kolkata,West Bengal,East,2023-10-30,Gold
+CUST00861,37,Male,Mumbai,Maharashtra,West,2023-11-07,Bronze
+CUST00862,58,Male,Chandigarh,Chandigarh,North,2023-07-27,Bronze
+CUST00863,63,Male,Ahmedabad,Gujarat,West,2024-09-09,Bronze
+CUST00864,29,Female,Bengaluru,Karnataka,South,2024-03-21,Silver
+CUST00865,23,Female,Pune,Maharashtra,West,2024-10-31,Bronze
+CUST00866,34,Male,Jaipur,Rajasthan,North,2024-09-24,Bronze
+CUST00867,68,Male,Ahmedabad,Gujarat,West,2023-02-24,Bronze
+CUST00868,36,Female,Jaipur,Rajasthan,North,2025-06-30,Bronze
+CUST00869,43,Male,Hyderabad,Telangana,South,2023-01-12,Silver
+CUST00870,65,Male,Bengaluru,Karnataka,South,2024-10-18,Gold
+CUST00871,61,Male,Hyderabad,Telangana,South,2024-02-04,Bronze
+CUST00872,61,Female,Delhi,Delhi,North,2025-06-26,Silver
+CUST00873,69,Male,Hyderabad,Telangana,South,2024-10-09,Silver
+CUST00874,49,Female,Delhi,Delhi,North,2025-09-06,Bronze
+CUST00875,23,Male,Delhi,Delhi,North,2024-05-29,Silver
+CUST00876,53,Female,Ahmedabad,Gujarat,West,2024-10-17,Bronze
+CUST00877,55,Male,Jaipur,Rajasthan,North,2024-06-25,Silver
+CUST00878,28,Male,Pune,Maharashtra,West,2023-08-25,Bronze
+CUST00879,50,Female,Hyderabad,Telangana,South,2023-10-06,Silver
+CUST00880,41,Female,Bengaluru,Karnataka,South,2023-12-14,Silver
+CUST00881,40,Female,Delhi,Delhi,North,2024-09-18,Bronze
+CUST00882,32,Female,Jaipur,Rajasthan,North,2023-04-14,Bronze
+CUST00883,44,Female,Mumbai,Maharashtra,West,2024-09-21,Platinum
+CUST00884,28,Female,Chandigarh,Chandigarh,North,2024-05-31,Silver
+CUST00885,68,Female,Ahmedabad,Gujarat,West,2025-09-06,Silver
+CUST00886,67,Male,Pune,Maharashtra,West,2025-05-21,Gold
+CUST00887,34,Male,Lucknow,Uttar Pradesh,North,2023-09-05,Silver
+CUST00888,68,Male,Ahmedabad,Gujarat,West,2023-12-30,Silver
+CUST00889,70,Female,Mumbai,Maharashtra,West,2023-11-17,Gold
+CUST00890,31,Male,Chandigarh,Chandigarh,North,2024-09-24,Gold
+CUST00891,44,Male,Mumbai,Maharashtra,West,2023-10-13,Silver
+CUST00892,35,Female,Hyderabad,Telangana,South,2023-05-29,Silver
+CUST00893,45,Female,Delhi,Delhi,North,2023-03-25,Bronze
+CUST00894,68,Female,Pune,Maharashtra,West,2025-08-23,Platinum
+CUST00895,64,Male,Kolkata,West Bengal,East,2024-02-10,Silver
+CUST00896,64,Female,Delhi,Delhi,North,2025-09-04,Bronze
+CUST00897,21,Male,Kolkata,West Bengal,East,2024-03-31,Gold
+CUST00898,24,Male,Chandigarh,Chandigarh,North,2025-01-12,Silver
+CUST00899,62,Male,Jaipur,Rajasthan,North,2025-03-10,Bronze
+CUST00900,52,Male,Lucknow,Uttar Pradesh,North,2023-06-10,Silver
+CUST00901,65,Male,Bengaluru,Karnataka,South,2025-02-22,Bronze
+CUST00902,26,Female,Delhi,Delhi,North,2024-04-04,Gold
+CUST00903,25,Male,Pune,Maharashtra,West,2024-07-03,Bronze
+CUST00904,69,Female,Mumbai,Maharashtra,West,2024-05-14,Gold
+CUST00905,62,Female,Pune,Maharashtra,West,2025-01-07,Silver
+CUST00906,34,Male,Chandigarh,Chandigarh,North,2024-05-23,Bronze
+CUST00907,34,Female,Kolkata,West Bengal,East,2024-10-15,Platinum
+CUST00908,66,Male,Mumbai,Maharashtra,West,2025-03-14,Silver
+CUST00909,50,Female,Bengaluru,Karnataka,South,2024-04-25,Bronze
+CUST00910,49,Male,Bengaluru,Karnataka,South,2024-10-24,Silver
+CUST00911,25,Male,Delhi,Delhi,North,2023-04-24,Gold
+CUST00912,36,Male,Chandigarh,Chandigarh,North,2025-01-18,Bronze
+CUST00913,55,Female,Jaipur,Rajasthan,North,2024-07-31,Bronze
+CUST00914,20,Female,Chandigarh,Chandigarh,North,2023-12-27,Bronze
+CUST00915,22,Male,Kolkata,West Bengal,East,2023-12-07,Bronze
+CUST00916,30,Female,Pune,Maharashtra,West,2025-02-08,Gold
+CUST00917,64,Female,Bengaluru,Karnataka,South,2025-09-13,Silver
+CUST00918,63,Female,Pune,Maharashtra,West,2025-01-30,Bronze
+CUST00919,48,Female,Pune,Maharashtra,West,2025-08-26,Bronze
+CUST00920,33,Female,Pune,Maharashtra,West,2024-03-24,Bronze
+CUST00921,67,Female,Bengaluru,Karnataka,South,2025-04-22,Platinum
+CUST00922,49,Female,Ahmedabad,Gujarat,West,2025-04-14,Bronze
+CUST00923,39,Male,Hyderabad,Telangana,South,2023-06-29,Platinum
+CUST00924,46,Male,Kolkata,West Bengal,East,2024-12-02,Silver
+CUST00925,39,Male,Ahmedabad,Gujarat,West,2024-02-11,Bronze
+CUST00926,60,Female,Kolkata,West Bengal,East,2024-10-27,Gold
+CUST00927,20,Female,Mumbai,Maharashtra,West,2023-07-15,Silver
+CUST00928,27,Male,Chandigarh,Chandigarh,North,2024-04-10,Silver
+CUST00929,59,Female,Chandigarh,Chandigarh,North,2023-11-07,Platinum
+CUST00930,38,Male,Lucknow,Uttar Pradesh,North,2023-09-19,Bronze
+CUST00931,33,Male,Chandigarh,Chandigarh,North,2024-02-23,Bronze
+CUST00932,29,Other,Bengaluru,Karnataka,South,2024-02-10,Gold
+CUST00933,19,Male,Jaipur,Rajasthan,North,2025-07-27,Bronze
+CUST00934,58,Male,Delhi,Delhi,North,2023-05-23,Bronze
+CUST00935,41,Female,Lucknow,Uttar Pradesh,North,2023-12-08,Bronze
+CUST00936,52,Female,Delhi,Delhi,North,2023-11-12,Bronze
+CUST00937,47,Male,Kolkata,West Bengal,East,2023-04-11,Gold
+CUST00938,47,Female,Delhi,Delhi,North,2023-09-01,Bronze
+CUST00939,64,Female,Delhi,Delhi,North,2024-05-04,Silver
+CUST00940,52,Male,Lucknow,Uttar Pradesh,North,2023-01-12,Silver
+CUST00941,36,Male,Mumbai,Maharashtra,West,2023-08-27,Silver
+CUST00942,67,Female,Pune,Maharashtra,West,2024-07-14,Bronze
+CUST00943,25,Male,Chandigarh,Chandigarh,North,2023-02-11,Gold
+CUST00944,43,Female,Chandigarh,Chandigarh,North,2024-11-08,Bronze
+CUST00945,66,Female,Bengaluru,Karnataka,South,2024-08-16,Gold
+CUST00946,57,Other,Lucknow,Uttar Pradesh,North,2024-03-04,Gold
+CUST00947,24,Male,Bengaluru,Karnataka,South,2025-03-13,Silver
+CUST00948,47,Female,Jaipur,Rajasthan,North,2023-06-07,Silver
+CUST00949,24,Male,Jaipur,Rajasthan,North,2023-08-04,Silver
+CUST00950,20,Male,Bengaluru,Karnataka,South,2024-10-31,Bronze
+CUST00951,18,Male,Lucknow,Uttar Pradesh,North,2024-04-06,Gold
+CUST00952,53,Male,Bengaluru,Karnataka,South,2023-05-14,Gold
+CUST00953,42,Female,Chandigarh,Chandigarh,North,2023-03-08,Bronze
+CUST00954,54,Male,Ahmedabad,Gujarat,West,2025-04-27,Silver
+CUST00955,18,Male,Hyderabad,Telangana,South,2023-01-07,Platinum
+CUST00956,32,Female,Delhi,Delhi,North,2025-08-05,Platinum
+CUST00957,54,Male,Hyderabad,Telangana,South,2024-06-09,Silver
+CUST00958,30,Female,Lucknow,Uttar Pradesh,North,2023-03-14,Silver
+CUST00959,57,Male,Hyderabad,Telangana,South,2024-02-03,Bronze
+CUST00960,25,Female,Jaipur,Rajasthan,North,2024-02-09,Platinum
+CUST00961,22,Female,Kolkata,West Bengal,East,2024-11-05,Bronze
+CUST00962,26,Male,Delhi,Delhi,North,2024-07-31,Silver
+CUST00963,18,Male,Pune,Maharashtra,West,2025-05-08,Bronze
+CUST00964,53,Male,Lucknow,Uttar Pradesh,North,2023-05-10,Bronze
+CUST00965,52,Female,Delhi,Delhi,North,2025-07-19,Bronze
+CUST00966,19,Male,Hyderabad,Telangana,South,2024-04-10,Platinum
+CUST00967,57,Male,Jaipur,Rajasthan,North,2023-07-25,Bronze
+CUST00968,40,Male,Mumbai,Maharashtra,West,2025-02-26,Silver
+CUST00969,26,Male,Ahmedabad,Gujarat,West,2025-09-04,Bronze
+CUST00970,51,Male,Pune,Maharashtra,West,2025-02-06,Bronze
+CUST00971,63,Female,Ahmedabad,Gujarat,West,2023-09-23,Silver
+CUST00972,31,Male,Delhi,Delhi,North,2024-06-20,Silver
+CUST00973,21,Male,Jaipur,Rajasthan,North,2025-08-19,Bronze
+CUST00974,47,Female,Jaipur,Rajasthan,North,2025-03-03,Bronze
+CUST00975,48,Female,Hyderabad,Telangana,South,2023-09-10,Bronze
+CUST00976,55,Male,Chandigarh,Chandigarh,North,2025-04-01,Bronze
+CUST00977,28,Male,Hyderabad,Telangana,South,2023-10-16,Platinum
+CUST00978,52,Male,Chandigarh,Chandigarh,North,2023-06-13,Platinum
+CUST00979,25,Female,Chandigarh,Chandigarh,North,2023-04-05,Bronze
+CUST00980,20,Male,Pune,Maharashtra,West,2025-02-20,Silver
+CUST00981,31,Female,Hyderabad,Telangana,South,2025-04-12,Gold
+CUST00982,30,Female,Mumbai,Maharashtra,West,2023-04-20,Bronze
+CUST00983,62,Female,Bengaluru,Karnataka,South,2023-12-02,Gold
+CUST00984,49,Male,Bengaluru,Karnataka,South,2025-04-01,Platinum
+CUST00985,51,Male,Hyderabad,Telangana,South,2023-08-26,Bronze
+CUST00986,62,Male,Hyderabad,Telangana,South,2024-01-16,Bronze
+CUST00987,36,Male,Ahmedabad,Gujarat,West,2024-03-11,Platinum
+CUST00988,55,Female,Pune,Maharashtra,West,2025-06-17,Silver
+CUST00989,33,Female,Hyderabad,Telangana,South,2024-04-27,Bronze
+CUST00990,19,Female,Ahmedabad,Gujarat,West,2025-07-25,Bronze
+CUST00991,57,Female,Chandigarh,Chandigarh,North,2025-06-20,Silver
+CUST00992,34,Male,Jaipur,Rajasthan,North,2023-01-25,Silver
+CUST00993,51,Male,Jaipur,Rajasthan,North,2024-10-14,Gold
+CUST00994,59,Male,Chandigarh,Chandigarh,North,2023-04-27,Platinum
+CUST00995,33,Female,Lucknow,Uttar Pradesh,North,2024-04-26,Bronze
+CUST00996,55,Female,Ahmedabad,Gujarat,West,2024-01-27,Silver
+CUST00997,19,Female,Ahmedabad,Gujarat,West,2025-07-05,Silver
+CUST00998,19,Male,Chandigarh,Chandigarh,North,2025-09-20,Bronze
+CUST00999,43,Male,Mumbai,Maharashtra,West,2025-08-21,Bronze
+CUST01000,30,Female,Kolkata,West Bengal,East,2024-06-20,Platinum
+CUST01001,64,Male,Delhi,Delhi,North,2023-03-20,Gold
+CUST01002,48,Female,Chandigarh,Chandigarh,North,2024-08-02,Silver
+CUST01003,51,Female,Hyderabad,Telangana,South,2023-06-22,Silver
+CUST01004,56,Female,Hyderabad,Telangana,South,2025-08-13,Bronze
+CUST01005,20,Male,Pune,Maharashtra,West,2023-01-12,Silver
+CUST01006,25,Male,Chandigarh,Chandigarh,North,2025-03-10,Silver
+CUST01007,40,Male,Pune,Maharashtra,West,2023-05-08,Silver
+CUST01008,31,Male,Chandigarh,Chandigarh,North,2024-08-30,Platinum
+CUST01009,44,Male,Ahmedabad,Gujarat,West,2023-04-02,Silver
+CUST01010,46,Female,Delhi,Delhi,North,2024-10-14,Bronze
+CUST01011,56,Female,Ahmedabad,Gujarat,West,2024-06-26,Gold
+CUST01012,70,Male,Kolkata,West Bengal,East,2025-04-25,Bronze
+CUST01013,56,Male,Jaipur,Rajasthan,North,2024-06-15,Bronze
+CUST01014,18,Male,Bengaluru,Karnataka,South,2024-10-19,Bronze
+CUST01015,34,Male,Chandigarh,Chandigarh,North,2025-09-15,Silver
+CUST01016,58,Female,Kolkata,West Bengal,East,2025-04-07,Gold
+CUST01017,47,Male,Jaipur,Rajasthan,North,2024-03-22,Silver
+CUST01018,70,Male,Lucknow,Uttar Pradesh,North,2024-01-25,Gold
+CUST01019,30,Male,Delhi,Delhi,North,2024-11-02,Silver
+CUST01020,38,Female,Pune,Maharashtra,West,2025-05-10,Bronze
+CUST01021,36,Female,Pune,Maharashtra,West,2023-02-12,Gold
+CUST01022,70,Male,Ahmedabad,Gujarat,West,2023-09-11,Bronze
+CUST01023,36,Female,Hyderabad,Telangana,South,2023-05-10,Bronze
+CUST01024,42,Female,Jaipur,Rajasthan,North,2023-03-01,Silver
+CUST01025,39,Female,Lucknow,Uttar Pradesh,North,2024-10-24,Bronze
+CUST01026,48,Male,Kolkata,West Bengal,East,2024-04-11,Bronze
+CUST01027,34,Female,Delhi,Delhi,North,2023-10-14,Silver
+CUST01028,40,Female,Jaipur,Rajasthan,North,2024-05-31,Silver
+CUST01029,49,Female,Lucknow,Uttar Pradesh,North,2024-04-11,Silver
+CUST01030,27,Female,Bengaluru,Karnataka,South,2025-07-18,Platinum
+CUST01031,27,Female,Chandigarh,Chandigarh,North,2025-02-16,Silver
+CUST01032,53,Male,Pune,Maharashtra,West,2023-12-11,Gold
+CUST01033,25,Female,Kolkata,West Bengal,East,2024-10-03,Bronze
+CUST01034,69,Female,Pune,Maharashtra,West,2024-01-17,Silver
+CUST01035,37,Female,Kolkata,West Bengal,East,2025-02-17,Gold
+CUST01036,49,Male,Ahmedabad,Gujarat,West,2024-11-20,Silver
+CUST01037,67,Female,Hyderabad,Telangana,South,2023-09-10,Silver
+CUST01038,31,Female,Kolkata,West Bengal,East,2025-07-15,Bronze
+CUST01039,67,Male,Pune,Maharashtra,West,2023-02-25,Bronze
+CUST01040,45,Female,Ahmedabad,Gujarat,West,2024-04-07,Silver
+CUST01041,63,Female,Kolkata,West Bengal,East,2024-04-01,Bronze
+CUST01042,69,Female,Bengaluru,Karnataka,South,2025-09-09,Gold
+CUST01043,70,Male,Hyderabad,Telangana,South,2023-03-24,Bronze
+CUST01044,41,Male,Kolkata,West Bengal,East,2025-06-23,Platinum
+CUST01045,32,Female,Ahmedabad,Gujarat,West,2023-04-09,Platinum
+CUST01046,39,Male,Jaipur,Rajasthan,North,2023-05-29,Bronze
+CUST01047,47,Female,Mumbai,Maharashtra,West,2023-11-25,Bronze
+CUST01048,21,Male,Lucknow,Uttar Pradesh,North,2023-06-05,Gold
+CUST01049,30,Female,Mumbai,Maharashtra,West,2023-07-09,Platinum
+CUST01050,40,Male,Mumbai,Maharashtra,West,2024-05-08,Silver
+CUST01051,25,Female,Delhi,Delhi,North,2025-06-01,Bronze
+CUST01052,35,Male,Bengaluru,Karnataka,South,2023-09-20,Silver
+CUST01053,29,Male,Jaipur,Rajasthan,North,2023-03-21,Silver
+CUST01054,48,Male,Chandigarh,Chandigarh,North,2024-02-04,Bronze
+CUST01055,31,Male,Kolkata,West Bengal,East,2025-02-02,Gold
+CUST01056,51,Female,Lucknow,Uttar Pradesh,North,2024-08-31,Bronze
+CUST01057,35,Female,Hyderabad,Telangana,South,2023-09-17,Bronze
+CUST01058,51,Male,Jaipur,Rajasthan,North,2025-02-10,Bronze
+CUST01059,28,Female,Pune,Maharashtra,West,2024-09-06,Bronze
+CUST01060,58,Male,Chandigarh,Chandigarh,North,2024-07-05,Bronze
+CUST01061,29,Female,Delhi,Delhi,North,2025-02-23,Silver
+CUST01062,66,Female,Delhi,Delhi,North,2023-04-11,Bronze
+CUST01063,32,Female,Jaipur,Rajasthan,North,2023-12-25,Bronze
+CUST01064,48,Male,Ahmedabad,Gujarat,West,2024-01-15,Bronze
+CUST01065,66,Female,Mumbai,Maharashtra,West,2025-03-30,Platinum
+CUST01066,46,Male,Pune,Maharashtra,West,2023-08-09,Bronze
+CUST01067,43,Other,Delhi,Delhi,North,2025-03-30,Silver
+CUST01068,35,Male,Lucknow,Uttar Pradesh,North,2024-02-24,Silver
+CUST01069,49,Female,Delhi,Delhi,North,2023-05-04,Platinum
+CUST01070,39,Female,Hyderabad,Telangana,South,2024-02-26,Bronze
+CUST01071,55,Female,Kolkata,West Bengal,East,2023-08-19,Silver
+CUST01072,34,Male,Delhi,Delhi,North,2024-11-20,Silver
+CUST01073,40,Female,Hyderabad,Telangana,South,2023-03-04,Silver
+CUST01074,41,Male,Jaipur,Rajasthan,North,2024-04-29,Bronze
+CUST01075,67,Female,Jaipur,Rajasthan,North,2024-09-19,Silver
+CUST01076,25,Male,Chandigarh,Chandigarh,North,2024-12-03,Bronze
+CUST01077,58,Male,Delhi,Delhi,North,2024-07-27,Silver
+CUST01078,23,Female,Lucknow,Uttar Pradesh,North,2025-02-06,Gold
+CUST01079,22,Male,Delhi,Delhi,North,2024-04-27,Bronze
+CUST01080,61,Male,Lucknow,Uttar Pradesh,North,2024-06-02,Gold
+CUST01081,46,Male,Bengaluru,Karnataka,South,2023-06-04,Bronze
+CUST01082,45,Male,Chandigarh,Chandigarh,North,2023-04-02,Gold
+CUST01083,28,Female,Bengaluru,Karnataka,South,2025-09-08,Silver
+CUST01084,18,Female,Delhi,Delhi,North,2024-06-09,Bronze
+CUST01085,60,Male,Chandigarh,Chandigarh,North,2024-03-30,Bronze
+CUST01086,36,Male,Bengaluru,Karnataka,South,2025-01-10,Platinum
+CUST01087,26,Male,Mumbai,Maharashtra,West,2024-08-20,Bronze
+CUST01088,44,Male,Delhi,Delhi,North,2024-10-06,Bronze
+CUST01089,51,Female,Bengaluru,Karnataka,South,2024-05-24,Bronze
+CUST01090,61,Female,Mumbai,Maharashtra,West,2023-07-02,Silver
+CUST01091,21,Male,Mumbai,Maharashtra,West,2024-01-21,Silver
+CUST01092,53,Male,Jaipur,Rajasthan,North,2024-07-27,Bronze
+CUST01093,35,Male,Delhi,Delhi,North,2024-12-31,Bronze
+CUST01094,32,Female,Mumbai,Maharashtra,West,2024-02-09,Bronze
+CUST01095,68,Female,Jaipur,Rajasthan,North,2023-09-03,Bronze
+CUST01096,30,Male,Bengaluru,Karnataka,South,2025-01-11,Bronze
+CUST01097,36,Male,Hyderabad,Telangana,South,2024-08-13,Silver
+CUST01098,66,Female,Delhi,Delhi,North,2024-10-22,Bronze
+CUST01099,23,Female,Chandigarh,Chandigarh,North,2024-10-11,Bronze
+CUST01100,65,Male,Lucknow,Uttar Pradesh,North,2024-04-15,Bronze
+CUST01101,29,Male,Lucknow,Uttar Pradesh,North,2025-04-05,Platinum
+CUST01102,68,Male,Bengaluru,Karnataka,South,2025-06-06,Platinum
+CUST01103,54,Female,Ahmedabad,Gujarat,West,2024-02-27,Gold
+CUST01104,34,Male,Ahmedabad,Gujarat,West,2025-06-19,Bronze
+CUST01105,40,Male,Bengaluru,Karnataka,South,2023-03-06,Bronze
+CUST01106,43,Female,Mumbai,Maharashtra,West,2023-01-13,Bronze
+CUST01107,46,Male,Delhi,Delhi,North,2023-08-01,Bronze
+CUST01108,50,Female,Lucknow,Uttar Pradesh,North,2025-09-12,Silver
+CUST01109,44,Male,Lucknow,Uttar Pradesh,North,2023-08-30,Gold
+CUST01110,42,Male,Mumbai,Maharashtra,West,2024-05-07,Gold
+CUST01111,27,Female,Lucknow,Uttar Pradesh,North,2023-08-01,Gold
+CUST01112,64,Male,Chandigarh,Chandigarh,North,2024-11-23,Bronze
+CUST01113,40,Female,Delhi,Delhi,North,2023-12-04,Silver
+CUST01114,38,Female,Kolkata,West Bengal,East,2025-09-23,Bronze
+CUST01115,38,Male,Lucknow,Uttar Pradesh,North,2023-06-22,Bronze
+CUST01116,60,Female,Bengaluru,Karnataka,South,2024-11-02,Silver
+CUST01117,30,Male,Chandigarh,Chandigarh,North,2023-06-13,Bronze
+CUST01118,54,Female,Lucknow,Uttar Pradesh,North,2024-04-09,Bronze
+CUST01119,50,Male,Chandigarh,Chandigarh,North,2025-09-21,Bronze
+CUST01120,41,Female,Jaipur,Rajasthan,North,2024-05-11,Silver
+CUST01121,61,Male,Kolkata,West Bengal,East,2024-11-30,Gold
+CUST01122,28,Male,Pune,Maharashtra,West,2024-01-30,Bronze
+CUST01123,34,Female,Bengaluru,Karnataka,South,2024-12-03,Gold
+CUST01124,21,Female,Bengaluru,Karnataka,South,2025-07-05,Bronze
+CUST01125,64,Male,Delhi,Delhi,North,2023-11-04,Silver
+CUST01126,42,Male,Chandigarh,Chandigarh,North,2025-02-06,Gold
+CUST01127,47,Female,Mumbai,Maharashtra,West,2023-07-02,Silver
+CUST01128,26,Female,Bengaluru,Karnataka,South,2024-09-20,Platinum
+CUST01129,38,Male,Chandigarh,Chandigarh,North,2025-03-04,Bronze
+CUST01130,37,Male,Chandigarh,Chandigarh,North,2024-05-24,Silver
+CUST01131,36,Male,Hyderabad,Telangana,South,2024-12-08,Silver
+CUST01132,36,Female,Hyderabad,Telangana,South,2024-06-29,Gold
+CUST01133,29,Male,Pune,Maharashtra,West,2024-07-17,Bronze
+CUST01134,54,Male,Jaipur,Rajasthan,North,2024-09-15,Gold
+CUST01135,59,Female,Pune,Maharashtra,West,2025-02-02,Silver
+CUST01136,34,Male,Lucknow,Uttar Pradesh,North,2024-08-16,Bronze
+CUST01137,54,Female,Mumbai,Maharashtra,West,2025-01-13,Silver
+CUST01138,65,Male,Lucknow,Uttar Pradesh,North,2023-08-15,Bronze
+CUST01139,56,Male,Ahmedabad,Gujarat,West,2025-01-14,Silver
+CUST01140,45,Male,Lucknow,Uttar Pradesh,North,2025-01-02,Gold
+CUST01141,58,Female,Delhi,Delhi,North,2024-03-11,Silver
+CUST01142,52,Male,Lucknow,Uttar Pradesh,North,2025-07-13,Silver
+CUST01143,64,Female,Pune,Maharashtra,West,2024-02-26,Silver
+CUST01144,65,Female,Bengaluru,Karnataka,South,2024-07-07,Bronze
+CUST01145,35,Female,Bengaluru,Karnataka,South,2023-01-21,Bronze
+CUST01146,31,Male,Hyderabad,Telangana,South,2024-07-07,Silver
+CUST01147,52,Male,Mumbai,Maharashtra,West,2024-02-01,Bronze
+CUST01148,61,Male,Mumbai,Maharashtra,West,2024-09-16,Bronze
+CUST01149,58,Male,Delhi,Delhi,North,2023-04-15,Silver
+CUST01150,24,Male,Pune,Maharashtra,West,2023-07-11,Bronze
+CUST01151,58,Female,Hyderabad,Telangana,South,2023-01-17,Bronze
+CUST01152,30,Male,Ahmedabad,Gujarat,West,2023-04-30,Silver
+CUST01153,35,Male,Mumbai,Maharashtra,West,2024-01-28,Bronze
+CUST01154,54,Male,Bengaluru,Karnataka,South,2024-02-29,Platinum
+CUST01155,30,Female,Lucknow,Uttar Pradesh,North,2023-05-09,Gold
+CUST01156,53,Male,Lucknow,Uttar Pradesh,North,2023-05-10,Silver
+CUST01157,48,Female,Hyderabad,Telangana,South,2024-07-25,Bronze
+CUST01158,19,Male,Pune,Maharashtra,West,2024-07-13,Gold
+CUST01159,33,Female,Pune,Maharashtra,West,2023-01-29,Gold
+CUST01160,26,Female,Jaipur,Rajasthan,North,2023-04-07,Gold
+CUST01161,26,Male,Kolkata,West Bengal,East,2023-01-10,Bronze
+CUST01162,55,Male,Mumbai,Maharashtra,West,2023-08-30,Silver
+CUST01163,28,Male,Pune,Maharashtra,West,2025-04-05,Gold
+CUST01164,39,Male,Bengaluru,Karnataka,South,2025-08-13,Silver
+CUST01165,50,Female,Hyderabad,Telangana,South,2023-08-20,Silver
+CUST01166,53,Female,Ahmedabad,Gujarat,West,2025-02-27,Silver
+CUST01167,62,Female,Jaipur,Rajasthan,North,2023-10-11,Silver
+CUST01168,40,Female,Chandigarh,Chandigarh,North,2024-12-15,Bronze
+CUST01169,62,Male,Delhi,Delhi,North,2025-01-28,Silver
+CUST01170,62,Male,Ahmedabad,Gujarat,West,2025-03-12,Bronze
+CUST01171,51,Female,Chandigarh,Chandigarh,North,2025-02-14,Silver
+CUST01172,26,Male,Lucknow,Uttar Pradesh,North,2025-08-12,Bronze
+CUST01173,41,Female,Delhi,Delhi,North,2024-12-26,Silver
+CUST01174,25,Male,Mumbai,Maharashtra,West,2023-07-19,Bronze
+CUST01175,24,Male,Bengaluru,Karnataka,South,2025-08-02,Silver
+CUST01176,53,Other,Delhi,Delhi,North,2023-03-20,Gold
+CUST01177,35,Male,Kolkata,West Bengal,East,2025-07-01,Bronze
+CUST01178,20,Other,Chandigarh,Chandigarh,North,2025-08-13,Bronze
+CUST01179,45,Female,Mumbai,Maharashtra,West,2025-05-04,Bronze
+CUST01180,23,Female,Kolkata,West Bengal,East,2025-05-05,Gold
+CUST01181,61,Female,Lucknow,Uttar Pradesh,North,2023-06-22,Silver
+CUST01182,61,Female,Kolkata,West Bengal,East,2024-04-11,Silver
+CUST01183,38,Female,Jaipur,Rajasthan,North,2024-08-03,Bronze
+CUST01184,45,Male,Jaipur,Rajasthan,North,2024-02-20,Silver
+CUST01185,57,Male,Hyderabad,Telangana,South,2025-07-28,Gold
+CUST01186,18,Female,Ahmedabad,Gujarat,West,2024-03-24,Gold
+CUST01187,53,Male,Ahmedabad,Gujarat,West,2023-03-28,Silver
+CUST01188,38,Male,Mumbai,Maharashtra,West,2023-04-11,Bronze
+CUST01189,60,Male,Lucknow,Uttar Pradesh,North,2023-01-08,Bronze
+CUST01190,52,Female,Pune,Maharashtra,West,2025-04-24,Bronze
+CUST01191,30,Female,Jaipur,Rajasthan,North,2023-07-19,Bronze
+CUST01192,66,Male,Mumbai,Maharashtra,West,2024-05-19,Bronze
+CUST01193,27,Female,Pune,Maharashtra,West,2023-03-28,Bronze
+CUST01194,70,Female,Ahmedabad,Gujarat,West,2023-02-12,Bronze
+CUST01195,61,Female,Hyderabad,Telangana,South,2024-01-20,Platinum
+CUST01196,64,Female,Kolkata,West Bengal,East,2024-09-12,Silver
+CUST01197,70,Female,Jaipur,Rajasthan,North,2024-03-10,Gold
+CUST01198,27,Male,Mumbai,Maharashtra,West,2024-02-12,Silver
+CUST01199,63,Female,Delhi,Delhi,North,2024-04-27,Bronze
+CUST01200,30,Male,Pune,Maharashtra,West,2024-10-25,Gold
+CUST01201,54,Female,Kolkata,West Bengal,East,2023-01-17,Bronze
+CUST01202,55,Other,Jaipur,Rajasthan,North,2024-10-06,Silver
+CUST01203,41,Male,Ahmedabad,Gujarat,West,2023-05-28,Bronze
+CUST01204,19,Male,Lucknow,Uttar Pradesh,North,2023-10-04,Platinum
+CUST01205,39,Female,Pune,Maharashtra,West,2023-08-20,Bronze
+CUST01206,34,Male,Ahmedabad,Gujarat,West,2025-04-05,Bronze
+CUST01207,53,Female,Jaipur,Rajasthan,North,2025-07-15,Platinum
+CUST01208,31,Male,Pune,Maharashtra,West,2024-01-01,Bronze
+CUST01209,27,Male,Kolkata,West Bengal,East,2023-08-16,Silver
+CUST01210,52,Female,Jaipur,Rajasthan,North,2024-10-12,Gold
+CUST01211,42,Female,Chandigarh,Chandigarh,North,2024-03-11,Gold
+CUST01212,20,Female,Mumbai,Maharashtra,West,2024-02-03,Platinum
+CUST01213,64,Male,Kolkata,West Bengal,East,2023-07-30,Platinum
+CUST01214,55,Female,Pune,Maharashtra,West,2024-01-26,Bronze
+CUST01215,34,Female,Lucknow,Uttar Pradesh,North,2024-05-13,Gold
+CUST01216,29,Female,Ahmedabad,Gujarat,West,2024-06-23,Silver
+CUST01217,69,Female,Delhi,Delhi,North,2024-07-16,Silver
+CUST01218,41,Female,Ahmedabad,Gujarat,West,2024-05-05,Bronze
+CUST01219,46,Male,Pune,Maharashtra,West,2024-03-17,Silver
+CUST01220,60,Male,Ahmedabad,Gujarat,West,2023-09-18,Platinum
+CUST01221,42,Female,Mumbai,Maharashtra,West,2025-02-11,Gold
+CUST01222,53,Male,Jaipur,Rajasthan,North,2023-12-16,Silver
+CUST01223,43,Female,Delhi,Delhi,North,2023-12-18,Bronze
+CUST01224,55,Male,Bengaluru,Karnataka,South,2024-06-03,Bronze
+CUST01225,18,Female,Pune,Maharashtra,West,2023-11-16,Gold
+CUST01226,37,Female,Hyderabad,Telangana,South,2023-05-18,Silver
+CUST01227,45,Male,Bengaluru,Karnataka,South,2024-07-03,Silver
+CUST01228,33,Male,Ahmedabad,Gujarat,West,2024-09-14,Bronze
+CUST01229,64,Male,Pune,Maharashtra,West,2025-09-18,Silver
+CUST01230,34,Female,Chandigarh,Chandigarh,North,2024-01-03,Silver
+CUST01231,57,Female,Hyderabad,Telangana,South,2023-08-08,Platinum
+CUST01232,45,Male,Delhi,Delhi,North,2023-12-03,Silver
+CUST01233,29,Female,Lucknow,Uttar Pradesh,North,2023-08-11,Bronze
+CUST01234,44,Male,Chandigarh,Chandigarh,North,2024-10-09,Silver
+CUST01235,70,Male,Bengaluru,Karnataka,South,2025-02-06,Bronze
+CUST01236,59,Female,Jaipur,Rajasthan,North,2023-12-26,Platinum
+CUST01237,64,Male,Mumbai,Maharashtra,West,2025-07-09,Bronze
+CUST01238,47,Male,Lucknow,Uttar Pradesh,North,2023-11-25,Silver
+CUST01239,58,Male,Chandigarh,Chandigarh,North,2025-08-19,Bronze
+CUST01240,51,Male,Jaipur,Rajasthan,North,2024-04-07,Silver
+CUST01241,54,Male,Jaipur,Rajasthan,North,2025-08-03,Silver
+CUST01242,23,Male,Pune,Maharashtra,West,2025-08-20,Silver
+CUST01243,24,Female,Chandigarh,Chandigarh,North,2024-07-14,Bronze
+CUST01244,49,Male,Delhi,Delhi,North,2025-03-14,Bronze
+CUST01245,49,Female,Ahmedabad,Gujarat,West,2024-01-17,Bronze
+CUST01246,70,Male,Hyderabad,Telangana,South,2025-04-15,Silver
+CUST01247,42,Male,Hyderabad,Telangana,South,2024-08-12,Bronze
+CUST01248,50,Female,Bengaluru,Karnataka,South,2024-09-08,Silver
+CUST01249,24,Female,Bengaluru,Karnataka,South,2023-06-18,Gold
+CUST01250,69,Male,Hyderabad,Telangana,South,2023-08-05,Gold
+CUST01251,29,Female,Delhi,Delhi,North,2024-01-13,Silver
+CUST01252,33,Female,Mumbai,Maharashtra,West,2023-04-29,Silver
+CUST01253,33,Female,Kolkata,West Bengal,East,2023-07-09,Bronze
+CUST01254,60,Female,Ahmedabad,Gujarat,West,2025-02-05,Silver
+CUST01255,70,Male,Mumbai,Maharashtra,West,2024-01-05,Gold
+CUST01256,53,Male,Pune,Maharashtra,West,2025-02-16,Bronze
+CUST01257,30,Female,Kolkata,West Bengal,East,2023-05-29,Silver
+CUST01258,24,Male,Kolkata,West Bengal,East,2024-11-06,Gold
+CUST01259,53,Female,Chandigarh,Chandigarh,North,2024-10-13,Gold
+CUST01260,64,Male,Delhi,Delhi,North,2025-05-08,Bronze
+CUST01261,68,Male,Delhi,Delhi,North,2024-05-02,Silver
+CUST01262,26,Female,Kolkata,West Bengal,East,2025-02-08,Bronze
+CUST01263,49,Male,Chandigarh,Chandigarh,North,2024-01-09,Bronze
+CUST01264,28,Female,Ahmedabad,Gujarat,West,2025-02-19,Gold
+CUST01265,25,Female,Kolkata,West Bengal,East,2024-11-23,Gold
+CUST01266,50,Female,Lucknow,Uttar Pradesh,North,2023-06-09,Gold
+CUST01267,40,Female,Bengaluru,Karnataka,South,2023-12-17,Bronze
+CUST01268,42,Female,Bengaluru,Karnataka,South,2025-06-30,Gold
+CUST01269,25,Female,Mumbai,Maharashtra,West,2023-10-15,Silver
+CUST01270,62,Female,Pune,Maharashtra,West,2023-10-15,Bronze
+CUST01271,39,Male,Bengaluru,Karnataka,South,2025-06-10,Silver
+CUST01272,21,Male,Jaipur,Rajasthan,North,2023-08-14,Bronze
+CUST01273,57,Male,Mumbai,Maharashtra,West,2024-06-06,Gold
+CUST01274,20,Male,Bengaluru,Karnataka,South,2024-06-05,Silver
+CUST01275,46,Female,Pune,Maharashtra,West,2025-02-21,Bronze
+CUST01276,58,Female,Delhi,Delhi,North,2023-09-30,Bronze
+CUST01277,46,Female,Delhi,Delhi,North,2025-07-24,Bronze
+CUST01278,51,Male,Ahmedabad,Gujarat,West,2024-02-06,Bronze
+CUST01279,51,Female,Kolkata,West Bengal,East,2023-07-02,Silver
+CUST01280,45,Male,Lucknow,Uttar Pradesh,North,2025-08-26,Gold
+CUST01281,30,Female,Delhi,Delhi,North,2024-10-26,Bronze
+CUST01282,32,Female,Chandigarh,Chandigarh,North,2024-05-02,Bronze
+CUST01283,40,Male,Bengaluru,Karnataka,South,2025-04-06,Silver
+CUST01284,61,Male,Chandigarh,Chandigarh,North,2025-04-25,Gold
+CUST01285,43,Male,Pune,Maharashtra,West,2023-05-04,Bronze
+CUST01286,21,Female,Delhi,Delhi,North,2025-09-11,Bronze
+CUST01287,43,Female,Lucknow,Uttar Pradesh,North,2024-09-17,Silver
+CUST01288,57,Female,Pune,Maharashtra,West,2025-02-28,Bronze
+CUST01289,26,Male,Jaipur,Rajasthan,North,2024-02-18,Bronze
+CUST01290,22,Male,Jaipur,Rajasthan,North,2025-09-06,Gold
+CUST01291,49,Female,Chandigarh,Chandigarh,North,2024-12-25,Silver
+CUST01292,37,Female,Kolkata,West Bengal,East,2023-06-21,Silver
+CUST01293,67,Male,Mumbai,Maharashtra,West,2023-10-15,Gold
+CUST01294,28,Male,Kolkata,West Bengal,East,2024-03-10,Silver
+CUST01295,32,Female,Ahmedabad,Gujarat,West,2024-11-16,Bronze
+CUST01296,49,Male,Kolkata,West Bengal,East,2023-04-23,Bronze
+CUST01297,45,Male,Ahmedabad,Gujarat,West,2025-06-06,Bronze
+CUST01298,39,Male,Ahmedabad,Gujarat,West,2025-07-05,Bronze
+CUST01299,58,Female,Lucknow,Uttar Pradesh,North,2025-09-21,Silver
+CUST01300,34,Female,Delhi,Delhi,North,2023-05-02,Gold
+CUST01301,43,Female,Lucknow,Uttar Pradesh,North,2024-06-27,Platinum
+CUST01302,61,Female,Ahmedabad,Gujarat,West,2023-08-10,Silver
+CUST01303,24,Female,Pune,Maharashtra,West,2024-09-22,Bronze
+CUST01304,59,Male,Jaipur,Rajasthan,North,2023-02-08,Bronze
+CUST01305,43,Female,Ahmedabad,Gujarat,West,2024-05-11,Gold
+CUST01306,42,Male,Lucknow,Uttar Pradesh,North,2025-02-18,Silver
+CUST01307,27,Female,Pune,Maharashtra,West,2023-08-21,Silver
+CUST01308,62,Male,Lucknow,Uttar Pradesh,North,2025-07-31,Gold
+CUST01309,36,Male,Kolkata,West Bengal,East,2024-06-13,Silver
+CUST01310,28,Male,Bengaluru,Karnataka,South,2023-05-29,Gold
+CUST01311,30,Male,Chandigarh,Chandigarh,North,2024-02-01,Bronze
+CUST01312,70,Male,Mumbai,Maharashtra,West,2024-10-22,Gold
+CUST01313,25,Male,Lucknow,Uttar Pradesh,North,2024-09-29,Gold
+CUST01314,57,Other,Mumbai,Maharashtra,West,2025-06-22,Bronze
+CUST01315,21,Male,Hyderabad,Telangana,South,2023-10-29,Silver
+CUST01316,64,Female,Lucknow,Uttar Pradesh,North,2023-12-26,Bronze
+CUST01317,48,Female,Bengaluru,Karnataka,South,2023-08-26,Platinum
+CUST01318,45,Other,Mumbai,Maharashtra,West,2024-10-08,Bronze
+CUST01319,28,Female,Ahmedabad,Gujarat,West,2024-10-24,Silver
+CUST01320,60,Female,Lucknow,Uttar Pradesh,North,2023-08-24,Bronze
+CUST01321,18,Male,Delhi,Delhi,North,2025-01-05,Silver
+CUST01322,66,Male,Chandigarh,Chandigarh,North,2023-07-22,Bronze
+CUST01323,64,Male,Bengaluru,Karnataka,South,2023-09-13,Bronze
+CUST01324,69,Female,Mumbai,Maharashtra,West,2024-08-20,Silver
+CUST01325,55,Female,Bengaluru,Karnataka,South,2024-10-23,Gold
+CUST01326,41,Male,Pune,Maharashtra,West,2023-08-23,Bronze
+CUST01327,64,Male,Chandigarh,Chandigarh,North,2023-12-11,Bronze
+CUST01328,48,Female,Ahmedabad,Gujarat,West,2024-06-17,Gold
+CUST01329,58,Male,Lucknow,Uttar Pradesh,North,2025-05-09,Silver
+CUST01330,63,Female,Lucknow,Uttar Pradesh,North,2025-03-07,Gold
+CUST01331,67,Female,Lucknow,Uttar Pradesh,North,2025-02-19,Bronze
+CUST01332,43,Female,Chandigarh,Chandigarh,North,2024-04-10,Silver
+CUST01333,66,Female,Delhi,Delhi,North,2025-02-08,Bronze
+CUST01334,67,Female,Hyderabad,Telangana,South,2024-06-24,Bronze
+CUST01335,22,Female,Jaipur,Rajasthan,North,2023-08-01,Silver
+CUST01336,37,Female,Kolkata,West Bengal,East,2024-04-07,Silver
+CUST01337,69,Female,Mumbai,Maharashtra,West,2024-03-11,Gold
+CUST01338,58,Male,Delhi,Delhi,North,2023-10-10,Bronze
+CUST01339,28,Male,Ahmedabad,Gujarat,West,2024-07-15,Silver
+CUST01340,50,Male,Mumbai,Maharashtra,West,2024-08-29,Bronze
+CUST01341,67,Male,Lucknow,Uttar Pradesh,North,2024-04-07,Platinum
+CUST01342,55,Female,Bengaluru,Karnataka,South,2024-02-11,Bronze
+CUST01343,44,Female,Ahmedabad,Gujarat,West,2023-03-29,Bronze
+CUST01344,51,Male,Mumbai,Maharashtra,West,2023-02-13,Bronze
+CUST01345,32,Male,Lucknow,Uttar Pradesh,North,2024-04-05,Silver
+CUST01346,49,Female,Mumbai,Maharashtra,West,2023-10-05,Bronze
+CUST01347,38,Male,Bengaluru,Karnataka,South,2024-11-13,Gold
+CUST01348,63,Male,Lucknow,Uttar Pradesh,North,2024-02-25,Bronze
+CUST01349,22,Female,Hyderabad,Telangana,South,2024-12-01,Gold
+CUST01350,23,Female,Delhi,Delhi,North,2023-12-19,Bronze
+CUST01351,55,Male,Pune,Maharashtra,West,2024-11-26,Silver
+CUST01352,39,Male,Kolkata,West Bengal,East,2024-05-29,Gold
+CUST01353,35,Male,Chandigarh,Chandigarh,North,2024-12-03,Bronze
+CUST01354,31,Female,Kolkata,West Bengal,East,2024-09-21,Platinum
+CUST01355,27,Female,Ahmedabad,Gujarat,West,2023-01-19,Silver
+CUST01356,63,Male,Kolkata,West Bengal,East,2023-01-23,Platinum
+CUST01357,30,Female,Lucknow,Uttar Pradesh,North,2024-02-17,Silver
+CUST01358,48,Female,Hyderabad,Telangana,South,2023-01-30,Bronze
+CUST01359,47,Male,Pune,Maharashtra,West,2025-03-17,Bronze
+CUST01360,20,Female,Delhi,Delhi,North,2023-04-18,Bronze
+CUST01361,47,Female,Delhi,Delhi,North,2024-01-02,Bronze
+CUST01362,23,Male,Bengaluru,Karnataka,South,2023-10-08,Bronze
+CUST01363,46,Male,Chandigarh,Chandigarh,North,2023-05-08,Bronze
+CUST01364,25,Female,Mumbai,Maharashtra,West,2023-08-17,Silver
+CUST01365,61,Female,Hyderabad,Telangana,South,2023-04-21,Gold
+CUST01366,62,Female,Mumbai,Maharashtra,West,2023-05-16,Bronze
+CUST01367,60,Female,Pune,Maharashtra,West,2023-12-28,Bronze
+CUST01368,61,Female,Kolkata,West Bengal,East,2023-07-05,Silver
+CUST01369,50,Male,Delhi,Delhi,North,2024-10-17,Bronze
+CUST01370,34,Female,Pune,Maharashtra,West,2024-08-06,Bronze
+CUST01371,65,Male,Kolkata,West Bengal,East,2023-05-09,Bronze
+CUST01372,28,Male,Delhi,Delhi,North,2025-05-25,Platinum
+CUST01373,30,Female,Kolkata,West Bengal,East,2023-09-18,Gold
+CUST01374,67,Female,Chandigarh,Chandigarh,North,2024-05-29,Bronze
+CUST01375,28,Male,Hyderabad,Telangana,South,2024-03-24,Silver
+CUST01376,48,Female,Ahmedabad,Gujarat,West,2025-06-18,Silver
+CUST01377,45,Male,Pune,Maharashtra,West,2023-04-14,Silver
+CUST01378,61,Male,Pune,Maharashtra,West,2024-04-27,Silver
+CUST01379,23,Male,Jaipur,Rajasthan,North,2023-08-12,Silver
+CUST01380,58,Female,Lucknow,Uttar Pradesh,North,2025-04-11,Bronze
+CUST01381,33,Female,Chandigarh,Chandigarh,North,2025-05-23,Bronze
+CUST01382,21,Male,Chandigarh,Chandigarh,North,2025-05-15,Silver
+CUST01383,52,Female,Mumbai,Maharashtra,West,2024-05-05,Gold
+CUST01384,65,Male,Kolkata,West Bengal,East,2024-04-17,Silver
+CUST01385,43,Female,Lucknow,Uttar Pradesh,North,2023-01-10,Gold
+CUST01386,29,Male,Hyderabad,Telangana,South,2024-02-09,Platinum
+CUST01387,28,Male,Hyderabad,Telangana,South,2025-06-14,Bronze
+CUST01388,54,Female,Chandigarh,Chandigarh,North,2023-10-29,Silver
+CUST01389,42,Male,Hyderabad,Telangana,South,2023-08-19,Silver
+CUST01390,35,Male,Jaipur,Rajasthan,North,2024-12-31,Platinum
+CUST01391,36,Female,Pune,Maharashtra,West,2025-07-11,Platinum
+CUST01392,40,Female,Bengaluru,Karnataka,South,2023-03-07,Silver
+CUST01393,55,Male,Ahmedabad,Gujarat,West,2025-07-25,Bronze
+CUST01394,35,Male,Mumbai,Maharashtra,West,2023-04-22,Gold
+CUST01395,43,Male,Kolkata,West Bengal,East,2023-01-13,Bronze
+CUST01396,23,Female,Ahmedabad,Gujarat,West,2024-01-28,Gold
+CUST01397,21,Male,Kolkata,West Bengal,East,2024-05-14,Gold
+CUST01398,61,Female,Delhi,Delhi,North,2025-07-20,Bronze
+CUST01399,68,Other,Ahmedabad,Gujarat,West,2024-08-20,Silver
+CUST01400,46,Male,Bengaluru,Karnataka,South,2023-08-22,Silver
+CUST01401,51,Male,Chandigarh,Chandigarh,North,2024-08-24,Silver
+CUST01402,34,Male,Jaipur,Rajasthan,North,2023-11-10,Bronze
+CUST01403,60,Male,Pune,Maharashtra,West,2024-07-19,Gold
+CUST01404,60,Female,Pune,Maharashtra,West,2023-01-12,Platinum
+CUST01405,70,Male,Jaipur,Rajasthan,North,2023-07-28,Platinum
+CUST01406,33,Male,Lucknow,Uttar Pradesh,North,2025-08-31,Bronze
+CUST01407,19,Female,Delhi,Delhi,North,2023-01-14,Gold
+CUST01408,51,Male,Kolkata,West Bengal,East,2024-09-24,Gold
+CUST01409,25,Female,Bengaluru,Karnataka,South,2024-02-22,Bronze
+CUST01410,30,Male,Hyderabad,Telangana,South,2024-03-12,Bronze
+CUST01411,59,Female,Ahmedabad,Gujarat,West,2024-01-12,Bronze
+CUST01412,25,Female,Delhi,Delhi,North,2023-01-20,Gold
+CUST01413,47,Female,Ahmedabad,Gujarat,West,2024-08-09,Silver
+CUST01414,49,Female,Bengaluru,Karnataka,South,2025-06-30,Gold
+CUST01415,53,Male,Mumbai,Maharashtra,West,2025-01-24,Bronze
+CUST01416,64,Male,Mumbai,Maharashtra,West,2025-01-04,Silver
+CUST01417,47,Female,Delhi,Delhi,North,2023-03-11,Bronze
+CUST01418,18,Female,Chandigarh,Chandigarh,North,2025-04-03,Bronze
+CUST01419,60,Male,Bengaluru,Karnataka,South,2023-07-30,Silver
+CUST01420,56,Male,Bengaluru,Karnataka,South,2023-04-11,Bronze
+CUST01421,34,Male,Jaipur,Rajasthan,North,2024-11-28,Gold
+CUST01422,37,Male,Chandigarh,Chandigarh,North,2023-05-12,Bronze
+CUST01423,41,Male,Kolkata,West Bengal,East,2024-09-14,Silver
+CUST01424,67,Female,Kolkata,West Bengal,East,2024-01-16,Bronze
+CUST01425,39,Male,Hyderabad,Telangana,South,2023-05-12,Silver
+CUST01426,46,Male,Pune,Maharashtra,West,2023-01-20,Bronze
+CUST01427,39,Female,Mumbai,Maharashtra,West,2025-06-24,Bronze
+CUST01428,61,Female,Kolkata,West Bengal,East,2024-06-19,Gold
+CUST01429,26,Female,Chandigarh,Chandigarh,North,2023-08-15,Bronze
+CUST01430,54,Female,Bengaluru,Karnataka,South,2023-06-03,Gold
+CUST01431,27,Male,Kolkata,West Bengal,East,2025-03-15,Platinum
+CUST01432,53,Female,Bengaluru,Karnataka,South,2025-01-11,Bronze
+CUST01433,54,Female,Kolkata,West Bengal,East,2024-04-13,Bronze
+CUST01434,45,Male,Mumbai,Maharashtra,West,2025-04-01,Silver
+CUST01435,45,Female,Ahmedabad,Gujarat,West,2025-09-26,Platinum
+CUST01436,59,Female,Kolkata,West Bengal,East,2025-05-20,Gold
+CUST01437,60,Male,Chandigarh,Chandigarh,North,2024-02-09,Silver
+CUST01438,38,Male,Kolkata,West Bengal,East,2023-07-21,Gold
+CUST01439,41,Male,Pune,Maharashtra,West,2023-02-07,Bronze
+CUST01440,59,Male,Mumbai,Maharashtra,West,2025-07-30,Platinum
+CUST01441,57,Male,Chandigarh,Chandigarh,North,2025-02-10,Platinum
+CUST01442,19,Female,Jaipur,Rajasthan,North,2023-07-07,Bronze
+CUST01443,25,Male,Chandigarh,Chandigarh,North,2023-02-26,Bronze
+CUST01444,65,Female,Pune,Maharashtra,West,2025-07-29,Bronze
+CUST01445,44,Female,Ahmedabad,Gujarat,West,2023-01-20,Bronze
+CUST01446,39,Female,Mumbai,Maharashtra,West,2023-09-30,Gold
+CUST01447,54,Female,Jaipur,Rajasthan,North,2023-04-29,Bronze
+CUST01448,44,Male,Pune,Maharashtra,West,2024-08-05,Bronze
+CUST01449,46,Male,Pune,Maharashtra,West,2024-05-30,Bronze
+CUST01450,20,Female,Delhi,Delhi,North,2023-08-09,Platinum
+CUST01451,61,Female,Mumbai,Maharashtra,West,2024-06-09,Silver
+CUST01452,30,Female,Chandigarh,Chandigarh,North,2024-05-29,Bronze
+CUST01453,62,Male,Bengaluru,Karnataka,South,2024-12-28,Bronze
+CUST01454,27,Female,Ahmedabad,Gujarat,West,2025-01-10,Platinum
+CUST01455,53,Male,Bengaluru,Karnataka,South,2023-12-02,Gold
+CUST01456,26,Female,Chandigarh,Chandigarh,North,2024-11-28,Bronze
+CUST01457,44,Female,Chandigarh,Chandigarh,North,2023-02-24,Bronze
+CUST01458,51,Male,Mumbai,Maharashtra,West,2024-05-14,Bronze
+CUST01459,68,Female,Chandigarh,Chandigarh,North,2025-06-18,Bronze
+CUST01460,18,Male,Delhi,Delhi,North,2025-06-06,Silver
+CUST01461,49,Male,Jaipur,Rajasthan,North,2025-02-04,Platinum
+CUST01462,42,Female,Chandigarh,Chandigarh,North,2024-06-19,Silver
+CUST01463,46,Female,Bengaluru,Karnataka,South,2023-06-11,Gold
+CUST01464,24,Female,Chandigarh,Chandigarh,North,2024-10-31,Silver
+CUST01465,66,Female,Delhi,Delhi,North,2024-08-16,Silver
+CUST01466,20,Male,Kolkata,West Bengal,East,2025-07-03,Gold
+CUST01467,37,Female,Kolkata,West Bengal,East,2023-06-08,Bronze
+CUST01468,37,Female,Pune,Maharashtra,West,2023-07-07,Bronze
+CUST01469,70,Male,Ahmedabad,Gujarat,West,2023-03-01,Silver
+CUST01470,47,Other,Hyderabad,Telangana,South,2025-07-03,Bronze
+CUST01471,52,Male,Jaipur,Rajasthan,North,2025-03-27,Bronze
+CUST01472,52,Female,Lucknow,Uttar Pradesh,North,2023-11-15,Silver
+CUST01473,66,Male,Pune,Maharashtra,West,2025-05-27,Platinum
+CUST01474,56,Male,Ahmedabad,Gujarat,West,2023-07-30,Silver
+CUST01475,44,Male,Kolkata,West Bengal,East,2024-02-10,Gold
+CUST01476,43,Female,Bengaluru,Karnataka,South,2024-10-25,Silver
+CUST01477,31,Male,Lucknow,Uttar Pradesh,North,2023-04-19,Gold
+CUST01478,34,Male,Ahmedabad,Gujarat,West,2023-03-17,Silver
+CUST01479,35,Female,Ahmedabad,Gujarat,West,2024-06-25,Gold
+CUST01480,62,Female,Pune,Maharashtra,West,2023-11-10,Bronze
+CUST01481,69,Male,Lucknow,Uttar Pradesh,North,2025-09-24,Silver
+CUST01482,46,Male,Mumbai,Maharashtra,West,2023-04-27,Silver
+CUST01483,37,Male,Hyderabad,Telangana,South,2025-07-15,Bronze
+CUST01484,70,Male,Mumbai,Maharashtra,West,2025-05-17,Bronze
+CUST01485,44,Female,Lucknow,Uttar Pradesh,North,2024-12-04,Bronze
+CUST01486,35,Female,Mumbai,Maharashtra,West,2023-01-19,Bronze
+CUST01487,21,Female,Delhi,Delhi,North,2024-03-07,Gold
+CUST01488,18,Male,Kolkata,West Bengal,East,2024-11-15,Bronze
+CUST01489,67,Female,Delhi,Delhi,North,2025-01-09,Bronze
+CUST01490,18,Female,Chandigarh,Chandigarh,North,2023-12-16,Gold
+CUST01491,43,Female,Mumbai,Maharashtra,West,2023-07-02,Bronze
+CUST01492,62,Female,Chandigarh,Chandigarh,North,2023-04-23,Silver
+CUST01493,37,Female,Bengaluru,Karnataka,South,2023-07-02,Bronze
+CUST01494,69,Female,Jaipur,Rajasthan,North,2024-04-25,Platinum
+CUST01495,40,Male,Bengaluru,Karnataka,South,2023-05-26,Gold
+CUST01496,27,Female,Lucknow,Uttar Pradesh,North,2025-04-10,Gold
+CUST01497,28,Female,Ahmedabad,Gujarat,West,2024-09-19,Bronze
+CUST01498,58,Female,Kolkata,West Bengal,East,2023-04-23,Gold
+CUST01499,58,Male,Mumbai,Maharashtra,West,2025-02-01,Bronze
+CUST01500,22,Female,Pune,Maharashtra,West,2024-04-20,Bronze
