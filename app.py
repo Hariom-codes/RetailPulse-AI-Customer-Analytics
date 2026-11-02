@@ -1095,6 +1095,175 @@ if demand_df is not None:
 
 
 # --------------------------------------------------
+# INTERACTIVE WHAT-IF ANALYSIS
+# --------------------------------------------------
+
+st.markdown("---")
+st.header("🧪 Interactive What-if Business Analysis")
+
+whatif_sales = load_csv("sales_transactions.csv")
+
+if whatif_sales is not None:
+
+    # Detect revenue and profit columns automatically
+    revenue_candidates = [
+        "Revenue", "Total_Revenue", "Sales",
+        "Sales_Amount", "Total_Amount", "Amount"
+    ]
+
+    profit_candidates = [
+        "Profit", "Total_Profit",
+        "Profit_Amount", "Net_Profit"
+    ]
+
+    revenue_col = next(
+        (c for c in revenue_candidates if c in whatif_sales.columns),
+        None
+    )
+
+    profit_col = next(
+        (c for c in profit_candidates if c in whatif_sales.columns),
+        None
+    )
+
+    if revenue_col is None or profit_col is None:
+        st.error(
+            "Revenue or Profit column not detected. "
+            "Please check the sales_transactions.csv column names."
+        )
+        st.write("Available columns:", whatif_sales.columns.tolist())
+
+    else:
+        whatif_sales[revenue_col] = pd.to_numeric(
+            whatif_sales[revenue_col], errors="coerce"
+        ).fillna(0)
+
+        whatif_sales[profit_col] = pd.to_numeric(
+            whatif_sales[profit_col], errors="coerce"
+        ).fillna(0)
+
+        base_revenue = whatif_sales[revenue_col].sum()
+        base_profit = whatif_sales[profit_col].sum()
+        base_cost = base_revenue - base_profit
+
+        st.markdown(
+            "Adjust sales volume and selling price to explore "
+            "possible business scenarios."
+        )
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            volume_change = st.slider(
+                "Expected Sales Volume Change (%)",
+                min_value=-50,
+                max_value=100,
+                value=10,
+                step=5
+            )
+
+        with col2:
+            price_change = st.slider(
+                "Selling Price Change (%)",
+                min_value=-20,
+                max_value=20,
+                value=5,
+                step=1
+            )
+
+        volume_factor = 1 + volume_change / 100
+        price_factor = 1 + price_change / 100
+
+        projected_revenue = (
+            base_revenue * volume_factor * price_factor
+        )
+
+        projected_cost = base_cost * volume_factor
+        projected_profit = projected_revenue - projected_cost
+
+        projected_margin = (
+            projected_profit / projected_revenue * 100
+            if projected_revenue else 0
+        )
+
+        revenue_difference = projected_revenue - base_revenue
+        profit_difference = projected_profit - base_profit
+
+        st.markdown("### Scenario Results")
+
+        c1, c2, c3 = st.columns(3)
+
+        c1.metric(
+            "Projected Revenue",
+            f"₹{projected_revenue:,.0f}",
+            f"₹{revenue_difference:,.0f}"
+        )
+
+        c2.metric(
+            "Projected Profit",
+            f"₹{projected_profit:,.0f}",
+            f"₹{profit_difference:,.0f}"
+        )
+
+        c3.metric(
+            "Projected Profit Margin",
+            f"{projected_margin:.2f}%"
+        )
+
+        comparison_df = pd.DataFrame({
+            "Metric": ["Revenue", "Profit"],
+            "Current": [base_revenue, base_profit],
+            "Projected": [projected_revenue, projected_profit]
+        })
+
+        st.markdown("### Current vs Projected Performance")
+        st.bar_chart(
+            comparison_df.set_index("Metric")
+        )
+
+        # Exportable scenario report
+        scenario_report = pd.DataFrame({
+            "Metric": [
+                "Sales Volume Change (%)",
+                "Selling Price Change (%)",
+                "Current Revenue",
+                "Projected Revenue",
+                "Current Profit",
+                "Projected Profit",
+                "Revenue Difference",
+                "Profit Difference",
+                "Projected Profit Margin (%)"
+            ],
+            "Value": [
+                volume_change,
+                price_change,
+                base_revenue,
+                projected_revenue,
+                base_profit,
+                projected_profit,
+                revenue_difference,
+                profit_difference,
+                projected_margin
+            ]
+        })
+
+        st.download_button(
+            label="📥 Download What-if Scenario Report",
+            data=scenario_report.to_csv(index=False).encode("utf-8"),
+            file_name="RetailPulse_WhatIf_Report.csv",
+            mime="text/csv"
+        )
+
+        st.info(
+            "Scenario assumption: unit costs remain unchanged, "
+            "while sales volume and selling price change according "
+            "to the selected percentages. This is a simulation, "
+            "not a guaranteed forecast."
+        )
+
+
+
+# --------------------------------------------------
 # FOOTER
 # --------------------------------------------------
 
