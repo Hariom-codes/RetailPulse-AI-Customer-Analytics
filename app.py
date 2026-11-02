@@ -167,6 +167,24 @@ st.subheader("Customer Churn & Inactivity Analysis")
 
 churn = load_data("customer_features_churn.csv")
 
+
+if churn is not None:
+    st.write("Dataset Shape:", churn.shape)
+    st.write("Column Names:", churn.columns.tolist())
+
+    st.write("First 10 Churn Records:")
+    st.dataframe(churn.head(10))
+
+    st.write("Churn Status Null Count:")
+    st.write(churn["Churn_Status"].isna().sum())
+
+    st.write("Churn Status Data Type:")
+    st.write(churn["Churn_Status"].dtype)
+
+    st.write("Churn Status Unique Values:")
+    st.write(churn["Churn_Status"].unique())
+
+
 st.write("Churn Status Values:")
 st.write(churn["Churn_Status"].value_counts(dropna=False))
 st.write("Unique Values:", churn["Churn_Status"].unique())
