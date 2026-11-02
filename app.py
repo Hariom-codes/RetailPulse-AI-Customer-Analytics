@@ -87,14 +87,78 @@ with right:
 
 st.divider()
 
-st.subheader("Customer Segmentation")
+st.subheader("Customer Segmentation (RFM Analysis)")
 
-customers = load_data("customer_features_churn.csv")
+# Calculate RFM from transaction data
+rfm = sales.groupby("Customer_ID").agg(
+    Total_Orders=("Order_ID", "nunique"),
+    Total_Spending=("Revenue", "sum"),
+    Total_Quantity=("Quantity", "sum"),
+    Last_Purchase=("Order_Date", "max")
+).reset_index()
 
-if customers is not None and "Customer_Segment" in customers.columns:
-    st.bar_chart(customers["Customer_Segment"].value_counts())
-else:
-    st.info("Customer segmentation data unavailable.")
+reference_date = pd.Timestamp("2025-12-31")
+
+rfm["Recency"] = (
+    reference_date - rfm["Last_Purchase"]
+).dt.days
+
+# RFM scoring - same as original notebook
+rfm["R_Score"] = pd.qcut(
+    rfm["Recency"],
+    q=5,
+    labels=[5, 4, 3, 2, 1]
+).astype(int)
+
+rfm["F_Score"] = pd.qcut(
+    rfm["Total_Orders"].rank(method="first"),
+    q=5,
+    labels=[1, 2, 3, 4, 5]
+).astype(int)
+
+rfm["M_Score"] = pd.qcut(
+    rfm["Total_Spending"].rank(method="first"),
+    q=5,
+    labels=[1, 2, 3, 4, 5]
+).astype(int)
+
+# Original 7-segment business rules
+def segment_customer(row):
+    r = row["R_Score"]
+    f = row["F_Score"]
+    m = row["M_Score"]
+
+    if r >= 4 and f >= 4 and m >= 4:
+        return "Champions"
+    elif r >= 3 and f >= 4 and m >= 3:
+        return "Loyal Customers"
+    elif r >= 4 and f == 3 and m >= 3:
+        return "Potential Loyalists"
+    elif r >= 4 and f <= 2:
+        return "New / Recent Customers"
+    elif r <= 2 and (f >= 3 or m >= 4):
+        return "At Risk"
+    elif r <= 2 and f <= 2 and m <= 3:
+        return "Hibernating"
+    else:
+        return "Needs Attention"
+
+rfm["Customer_Segment"] = rfm.apply(
+    segment_customer, axis=1
+)
+
+segment_counts = rfm["Customer_Segment"].value_counts()
+
+st.bar_chart(segment_counts)
+
+st.dataframe(
+    rfm.groupby("Customer_Segment").agg(
+        Total_Customers=("Customer_ID", "count"),
+        Average_Spending=("Total_Spending", "mean"),
+        Total_Revenue=("Total_Spending", "sum")
+    ).round(2),
+    use_container_width=True
+)
 
 st.subheader("Inventory Overview")
 
