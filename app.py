@@ -30,6 +30,16 @@ st.caption("Retail analytics demonstration using a synthetic dataset.")
 
 DATA = Path(__file__).parent / "Dataset"
 
+@st.cache_data
+def load_csv(filename):
+    file_path = DATA / filename
+
+    if not file_path.exists():
+        st.error(f"Dataset not found: {filename}")
+        return None
+
+    return pd.read_csv(file_path)
+
 
 @st.cache_data
 def load_data(filename):
