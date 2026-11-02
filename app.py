@@ -1181,6 +1181,10 @@ if alert_inventory is not None and alert_sales is not None:
         alert_inventory["Stockout_Risk"].astype(str).str.lower() == "high"
     ]
 
+    # Update Prometheus inventory alert metrics
+prometheus_metrics["low_stock"].set(int(len(low_stock)))
+prometheus_metrics["high_risk"].set(int(len(high_risk)))
+
     # Sales metrics
     revenue_candidates = [
         "Revenue", "Total_Revenue", "Sales",
