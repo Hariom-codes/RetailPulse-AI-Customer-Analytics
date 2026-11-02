@@ -1,0 +1,13 @@
+
+.git
+.github
+__pycache__
+*.pyc
+.venv
+venv
+.env
+.ipynb_checkpoints
+*.ipynb
+*.pbix
+Reports/
+Documentation/
