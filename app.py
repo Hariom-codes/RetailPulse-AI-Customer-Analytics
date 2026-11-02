@@ -1219,6 +1219,10 @@ if alert_inventory is not None and alert_sales is not None:
         if total_revenue > 0 else 0
     )
 
+        # Update Prometheus inventory metrics
+    prometheus_metrics["low_stock"].set(int(len(low_stock)))
+    prometheus_metrics["high_risk"].set(int(len(high_risk)))
+
     # Alert KPIs
     c1, c2, c3, c4 = st.columns(4)
 
