@@ -168,6 +168,10 @@ quantity = df["Quantity"].sum()
 aov = revenue / orders if orders else 0
 margin = profit / revenue * 100 if revenue else 0
 
+# Update Prometheus business metrics
+prometheus_metrics["total_revenue"].set(float(revenue))
+prometheus_metrics["total_orders"].set(int(orders))
+
 st.markdown("### Executive Overview")
 
 c1, c2, c3, c4, c5 = st.columns(5)
